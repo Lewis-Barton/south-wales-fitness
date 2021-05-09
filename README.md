@@ -44,13 +44,19 @@ From these assumptions and the information I have gathered I am using the 5 plan
 ## Project Goals
 ---
 
+The main objectives for this project is to create a website using HTML and CSS that is fully responsive to all screen sizes. It will also have a good UX Design following good colour theory, typography, and layout to make the interaction as enjoyable as possible for the user while meeting the business goals outlined below.
+
 [Back to Index](#index)
 ## User Goals
 ---
 
+The main audience for this website will be customers that are either exisiting members of the gym or potential members, who want to know more about the gym, its facilities and its procedures.
+
 [Back to Index](#index)
 ## Developer and Business Goals
 ---
+
+The website must be fully responsive for all platforms adjusting the design when needed to improve the User Experience. To meet the business needs for the website it must interest and attract new customers and retain exisiting members.
 
 [Back to Index](#index)
 ## User Stories
