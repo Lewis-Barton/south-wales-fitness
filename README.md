@@ -97,7 +97,7 @@ From this I have also identified the following stories from an owner's perspecti
 Opportunities | Importance | Feasibility/Viability
 :---: | :---: | :---: |
 **Appealing, simple interface** | 5 | 5
-**Website performs as intended** | 5 | 5
+**Website meets needs of the user and owner** | 5 | 5
 **Customer testimonials** | 5 | 5
 **Session pricing and contents** | 5 | 5
 **Monthly costs and current deals** | 5 | 5
@@ -108,13 +108,52 @@ Opportunities | Importance | Feasibility/Viability
 **~~Gym history/about the owner~~** | 1 | 5
 
 [Back to Index](#index)
-## Design Choices
+## **Design Choices**
 ---
 
-### Information Architecture
+### **Information Architecture**
+
+Considering the information that has been outline in the previous two sections I have decidied to opt for the standard tree structure to spread across three pages in total.
+
+The aspects that will be **shared** across all three of the pages are as follows:
+
+* The navigation panel will be located at the top of the page which will include the company logo and links to the other pages.
+* The footer will consist of the copyright information as well as social links
+
+The **Home Page** will hold the following information:
+
+* Hero image with CTA for current offer - links to pricing page.
+* Below will be the available facilities.
+* Customer testimonials at the bottom of the page.
+
+The **Pricing Page** will hold the following information:
+
+* Current offer available will be located at the top of the page with CTA.
+* What is available in each pricing structure.
+* Pricing structure located at the bottom with current offer alongside.
+
+The **Information Page** will hold the following information:
+
+* Contact information.
+* How to join.
+* FAQs.
+* Disclaimer.
+
 
 [Back to Index](#index)
-### UI Styling
+### **UI Styling**
+
+Given the intentions and purpose of the website I decided on the following style choices to supplement the content and provide a good UX.
+
+#### **Colours**
+
+After doing some initial research and coming across the article written by MyPTWebsite (links to full article and accreditation in the credits section at the bottom). I have decided to go with blue for the sections of colour, this is because research has show that this will increase focus and concentration which is what the gym is trying to reflect, it also gives the users a sense of trustworthiness for the website and brand. Alongside these colours I will be using a subtle black and white theme with good whitespacing to minimalise colour clashing when possible.
+
+#### **Styling**
+
+When considering the important aspects of the styling of the website I had to think about what the average user would be viewing it on and the situations that the site might be used. This lead me to decide I will be using the **mobile first** philosophy as I believe most users will be on this sort of device.
+
+I will ensure that the design is as clean and simple as possible with very clear and intuitive navigation (typical hamburger layout on mobile devices). All pages will be fully responsive and adapt to each breakpoint appropriately adding more functionality on the larger screens.
 
 [Back to Index](#index)
 ## Wireframes
@@ -170,6 +209,8 @@ Opportunities | Importance | Feasibility/Viability
 [Back to Index](#index)
 ## Media
 ---
+
+* [MyPTWebsite](https://www.mypersonaltrainerwebsite.com/blog/how-to-use-color-psychology-to-create-the-perfect-fitness-website) - Article on the psychology of colours in fitness to decide basis for colour palette. 
 
 [Back to Index](#index)
 ## Code
