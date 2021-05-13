@@ -126,6 +126,12 @@ The **Home Page** will hold the following information:
 * Below will be the available facilities.
 * Customer testimonials at the bottom of the page.
 
+The **Classes Page** will hold the following information:
+
+* Weekly timetable of the classes that are available with days, times & class durations.
+* Description of what is included in each class
+
+
 The **Pricing Page** will hold the following information:
 
 * Current offer available will be located at the top of the page with CTA.
