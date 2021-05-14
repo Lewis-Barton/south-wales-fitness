@@ -165,6 +165,13 @@ I will ensure that the design is as clean and simple as possible with very clear
 ## Wireframes
 ---
 
+All wireframes were completed in Balsamiq before any programming had started. I have used these to base the design and development of the website, however these can potentially change from the later designs.
+
+* [Home Page](wireframes/south-wales-fitness-home-page.pdf)
+* [Classes Page](wireframes/south-wales-fitness-classes-page.pdf)
+* [Pricing Page](wireframes/south-wales-fitness-pricing-page.pdf)
+* [Information Page](wireframes/south-wales-fitness-information-page.pdf)
+
 [Back to Index](#index)
 # **Features**
 
