@@ -26,7 +26,7 @@ From these assumptions and the information I have gathered I am using the 5 plan
 * [Features](#)
   * [Existing Features](#)
   * [Features left to Implement](#)
-* [Technologies Used](#)
+* [Technologies Used](#technologies-used)
 * [Testing](#)
   * [Testing Write-Ups](#)
   * [Bugs Discovered](#)
@@ -178,6 +178,10 @@ I will ensure that the design is as clean and simple as possible with very clear
 [Back to Index](#index)
 # **Technologies Used**
 
+* [Balsamiq](https://balsamiq.com/) was used to produce all of the wireframes for the project.
+* [VS Code](https://code.visualstudio.com/) was used to develop this website.
+* [GitBash](https://git-scm.com/downloads) was used for Git version Control and pushing to GitHub.
+
 [Back to Index](#index)
 # **Testing**
 
@@ -211,6 +215,8 @@ I will ensure that the design is as clean and simple as possible with very clear
 
 ## Content
 ---
+
+* [tfliving](https://tfliving.com/2020/03/13/10-popular-group-fitness-classes-and-what-to-expect-if-you-go-to-one/) - Article of sample classes offered in a gym that the classes for the website were chosen from.
 
 [Back to Index](#index)
 ## Media
