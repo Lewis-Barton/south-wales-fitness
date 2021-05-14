@@ -136,7 +136,7 @@ The **Pricing Page** will hold the following information:
 
 * Current offer available will be located at the top of the page with CTA.
 * What is available in each pricing structure.
-* Pricing structure located at the bottom with current offer alongside.
+* Pricing structure located at the bottom.
 
 The **Information Page** will hold the following information:
 
