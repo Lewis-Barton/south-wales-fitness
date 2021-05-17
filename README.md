@@ -235,6 +235,7 @@ All wireframes were completed in Balsamiq before any programming had started. I 
 
 * [MyPTWebsite](https://www.mypersonaltrainerwebsite.com/blog/how-to-use-color-psychology-to-create-the-perfect-fitness-website) - Article on the psychology of colours in fitness to decide basis for colour palette.
 * [Hatchful](https://hatchful.shopify.com/) - Generated the logo for the business through their creation tool.
+* [Color Hunt](https://colorhunt.co/palette/257808) - Used to find colour palette to use
 
 [Back to Index](#index)
 ## Code

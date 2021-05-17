@@ -1,0 +1,20 @@
+/* Navbar */
+.navbar-logo {
+    height: 150px;
+    width: 150px;
+}
+
+.navbar-link {
+    color: #8ac4d0;
+    text-decoration: none;
+
+    /* Padding and display values taken from nav-link bootstrap class */
+
+    padding: .5rem;
+    display: block;
+}
+
+.navbar-link:hover {
+    color: #28527a;
+    text-decoration: none;
+}
