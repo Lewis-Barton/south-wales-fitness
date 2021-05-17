@@ -188,6 +188,9 @@ All wireframes were completed in Balsamiq before any programming had started. I 
 * [Balsamiq](https://balsamiq.com/) was used to produce all of the wireframes for the project.
 * [VS Code](https://code.visualstudio.com/) was used to develop this website.
 * [GitBash](https://git-scm.com/downloads) was used for Git version Control and pushing to GitHub.
+* [Bootstrap]() was used for styling and utility classes.
+* [Font Awesome]() was used for the icons on the site.
+* **HTML and CSS** are the two langauges that are used during this project.
 
 [Back to Index](#index)
 # **Testing**
@@ -229,7 +232,8 @@ All wireframes were completed in Balsamiq before any programming had started. I 
 ## Media
 ---
 
-* [MyPTWebsite](https://www.mypersonaltrainerwebsite.com/blog/how-to-use-color-psychology-to-create-the-perfect-fitness-website) - Article on the psychology of colours in fitness to decide basis for colour palette. 
+* [MyPTWebsite](https://www.mypersonaltrainerwebsite.com/blog/how-to-use-color-psychology-to-create-the-perfect-fitness-website) - Article on the psychology of colours in fitness to decide basis for colour palette.
+* [Hatchful](https://hatchful.shopify.com/) - Generated the logo for the business through their creation tool.
 
 [Back to Index](#index)
 ## Code
