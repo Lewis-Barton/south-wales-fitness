@@ -188,8 +188,9 @@ All wireframes were completed in Balsamiq before any programming had started. I 
 * [Balsamiq](https://balsamiq.com/) was used to produce all of the wireframes for the project.
 * [VS Code](https://code.visualstudio.com/) was used to develop this website.
 * [GitBash](https://git-scm.com/downloads) was used for Git version Control and pushing to GitHub.
-* [Bootstrap]() was used for styling and utility classes.
-* [Font Awesome]() was used for the icons on the site.
+* [Bootstrap](https://getbootstrap.com/) was used for styling and utility classes.
+* [Font Awesome](https://fontawesome.com/) was used for the icons on the site.
+* [Lazysizes](https://github.com/aFarkas/lazysizes?utm_source=cdnjs&utm_medium=cdnjs_link&utm_campaign=cdnjs_library) was used to optimise loading of images.
 * **HTML and CSS** are the two langauges that are used during this project.
 
 [Back to Index](#index)
@@ -238,6 +239,8 @@ All wireframes were completed in Balsamiq before any programming had started. I 
 [Back to Index](#index)
 ## Code
 ---
+
+* [Google WebP Docs](https://developers.google.com/speed/webp/docs/using) - Learning resource.
 
 [Back to Index](#index)
 ## Acknowledgements
