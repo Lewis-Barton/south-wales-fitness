@@ -192,6 +192,7 @@ All wireframes were completed in Balsamiq before any programming had started. I 
 * [Font Awesome](https://fontawesome.com/) was used for the icons on the site.
 * [Lazysizes](https://github.com/aFarkas/lazysizes?utm_source=cdnjs&utm_medium=cdnjs_link&utm_campaign=cdnjs_library) was used to optimise loading of images.
 * **HTML and CSS** are the two langauges that are used during this project.
+* [Google Fonts](https://fonts.google.com/) was used for the fonts for the website.
 
 [Back to Index](#index)
 # **Testing**
