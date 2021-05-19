@@ -63,6 +63,7 @@ body {
     opacity: 0.6;
     width: 100%;
     height: 50vh;
+    min-height: 350px;
     object-fit: cover;
     overflow: hidden;
 }
@@ -78,7 +79,7 @@ body {
     background-color: #fcfcfc;
     border-radius: 4px;
     opacity: 0.9;
-    height: 60%;
+    height: 300px;
     width: 300px;
 }
 
@@ -89,4 +90,10 @@ body {
 
 .banner-text .btn-cta {
     margin-top: 20px;
+}
+
+/* Facilities */
+.facilities-image {
+    width: 100%;
+    padding-bottom: 10%;
 }
