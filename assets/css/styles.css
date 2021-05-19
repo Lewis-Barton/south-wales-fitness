@@ -7,6 +7,12 @@ body {
     line-height: 1.5;
 }
 
+/* Backgrounds */
+.bg-offwhite {
+    background-color: #f0f6f7;
+    border-radius: 5px;
+}
+
 /* Buttons */
 .btn-cta {
     background-color: #8ac4d0;
@@ -21,11 +27,17 @@ body {
 }
 
 /* Headers */
-.bg-header {
+.lg-header {
     margin: 5% 0;
     text-align: center;
     font-size: 2.5rem;
     font-weight: 400;
+}
+
+.muted-header {
+    color: #525252;
+    font-weight: 300;
+    font-size: 1.5rem;
 }
 
 /* Navbar */
@@ -95,6 +107,21 @@ body {
 /* Facilities */
 .facilities-image {
     width: 100%;
-    padding-bottom: 10%;
-    max-height: 260px;
+    padding: 10% 0;
+    height: 260px;
+}
+
+#gym-equipment h5 {
+    font-size: 1rem;
+    font-weight: 700;
+    color: #525252;
+}
+
+#gym-equipment ul {
+    list-style: none;
+    padding-left: 20px;
+}
+
+#gym-equipment ul li {
+    margin: 4% 0;
 }
