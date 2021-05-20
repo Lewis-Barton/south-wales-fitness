@@ -7,6 +7,10 @@ body {
     line-height: 1.5;
 }
 
+a , a:hover {
+    text-decoration: none;
+}
+
 /* Backgrounds */
 .bg-offwhite {
     background-color: #f0f6f7;
@@ -48,7 +52,6 @@ body {
 
 .navbar-link {
     color: #8ac4d0;
-    text-decoration: none;
 
     /* Padding and display values taken from nav-link bootstrap class */
 
@@ -58,7 +61,6 @@ body {
 
 .navbar-link:hover {
     color: #28527a;
-    text-decoration: none;
 }
 
 /* Hero */
@@ -136,4 +138,29 @@ body {
 
 #testimonies > div {
     padding: 5% 0;
+}
+
+
+/* Footer */
+footer {
+    background-color: #525252;
+    min-height: 100px;
+}
+
+.social-links {
+    font-size: 2rem;
+    text-align: center;
+}
+
+.social-links a {
+    margin: 0 9%;
+    color: #fff;
+}
+
+.social-links i {
+    margin-top: 3%;
+}
+
+.social-links a:hover {
+    color: #8ac4d0;
 }
