@@ -125,3 +125,15 @@ body {
 #gym-equipment ul li {
     margin: 4% 0;
 }
+
+/* Testimonies */
+#testimonies img {
+    width: 100%;
+    max-width: 250px;
+    padding: 3% 0;
+    border-radius: 50%;
+}
+
+#testimonies > div {
+    padding: 5% 0;
+}

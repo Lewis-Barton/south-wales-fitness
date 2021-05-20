@@ -245,6 +245,9 @@ All wireframes were completed in Balsamiq before any programming had started. I 
 ---
 
 * [Google WebP Docs](https://developers.google.com/speed/webp/docs/using) - Learning resource.
+* [MDN](https://developer.mozilla.org/en-US/) - Learning resource.
+* [Bootstrap Docs](https://getbootstrap.com/docs/4.6/getting-started/introduction/) - Learning resource.
+* [BootstrapCreative](https://bootstrapcreative.com/bootstrap-push-pull-column-ordering-tutorial/) - Tutorial for bootstrap order class
 
 [Back to Index](#index)
 ## Acknowledgements
