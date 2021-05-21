@@ -200,6 +200,9 @@ All wireframes were completed in Balsamiq before any programming had started. I 
 ## Testing Write-Ups
 ---
 
+For full documentation on how all of the tests on each document were carried out please see my [testing write up](testing.md) here where I go through
+the process for each page, what was checked, how it was checked and if any errors arose from these test, how they were fixed.
+
 [Back to Index](#index)
 ## Bugs Discovered
 ---
