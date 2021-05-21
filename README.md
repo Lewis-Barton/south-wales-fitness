@@ -230,6 +230,7 @@ All wireframes were completed in Balsamiq before any programming had started. I 
 
 * [tfliving](https://tfliving.com/2020/03/13/10-popular-group-fitness-classes-and-what-to-expect-if-you-go-to-one/) - Article of sample classes offered in a gym that the classes for the website were chosen from.
 * [Fit & Me](https://www.fitandme.com/guide-gym-equipment-names-how-to-use/) - Article with list of gym equipment that was used for the facilities section.
+* [Eat, Sleep, Wander.](https://eatsleepwander.com/gym-review-example/) - Testimonial inspiration taken from this article.
 
 [Back to Index](#index)
 ## Media
