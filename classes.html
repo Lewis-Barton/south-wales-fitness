@@ -57,7 +57,7 @@
         <div class="row" id="classes-calendar">
           <div class="col-3 col-md-12">
             <!-- template for nav layout from bootstrap example - https://getbootstrap.com/docs/4.6/components/navs/#tabs -->
-            <ul class="nav nav-tabs" id="classes-tabs" role="tablist">
+            <ul class="nav nav-tabs justify-content-md-between" id="classes-tabs" role="tablist">
               <li class="nav-item" role="presentation">
                 <a class="navbar-link active" id="monday-tab" data-toggle="tab" href="#monday" role="tab" aria-controls="home" aria-selected="true">Monday</a>
               </li>
@@ -85,6 +85,7 @@
             <div class="tab-content" id="classes-tabs-content">
               <div class="tab-pane fade show active" id="monday" role="tabpanel" aria-labelledby="monday-tab">
                 <table class="class-timetable">
+                  <span class="sr-only">Timetable of classes available</span>
                   <tbody>
                     <tr class="bg-light-blue">
                       <td class="timetable-hour">
@@ -96,7 +97,129 @@
                             7:15
                           </div>
                           <div class="item-class">
-                            HIIT
+                            hiit
+                          </div>
+                          <div class="item-length">
+                            <i class="far fa-clock"></i> 60 Minutes
+                          </div>
+                          <div class="item-leader">
+                            <i class="far fa-user"></i> Dec Finney
+                          </div>
+                        </div>
+                      </td>
+                      <td>
+                        <div class="timetable-item">
+                          <div class="item-time">
+                            7:45
+                          </div>
+                          <div class="item-class">
+                            yoga
+                          </div>
+                          <div class="item-length">
+                            <i class="far fa-clock"></i> 30 Minutes
+                          </div>
+                          <div class="item-leader">
+                            <i class="far fa-user"></i> Dec Finney
+                          </div>
+                        </div>
+                      </td>
+                    </tr>
+                    <tr class="bg-offwhite">
+                      <td class="timetable-hour">
+                        9:00
+                      </td>
+                      <td colspan="2">
+                        <div class="timetable-item">
+                          <div class="item-time">
+                            7:15
+                          </div>
+                          <div class="item-class">
+                            kettlebell circuits
+                          </div>
+                          <div class="item-length">
+                            <i class="far fa-clock"></i> 60 Minutes
+                          </div>
+                          <div class="item-leader">
+                            <i class="far fa-user"></i> Dec Finney
+                          </div>
+                        </div>
+                      </td>
+                    </tr>
+                    <tr class="bg-light-blue">
+                      <td class="timetable-hour">
+                        11:00
+                      </td>
+                      <td>
+                        <!-- for spacing -->
+                      </td>
+                      <td>
+                        <div class="timetable-item">
+                          <div class="item-time">
+                            11:45
+                          </div>
+                          <div class="item-class">
+                            spinning
+                          </div>
+                          <div class="item-length">
+                            <i class="far fa-clock"></i> 45 Minutes
+                          </div>
+                          <div class="item-leader">
+                            <i class="far fa-user"></i> Dec Finney
+                          </div>
+                        </div>
+                      </td>
+                    </tr>
+                    <tr class="bg-offwhite">
+                      <td class="timetable-hour">
+                        13:00
+                      </td>
+                      <td>
+                        <div class="timetable-item">
+                          <div class="item-time">
+                            13:00
+                          </div>
+                          <div class="item-class">
+                            core & cardio circuits
+                          </div>
+                          <div class="item-length">
+                            <i class="far fa-clock"></i> 60 Minutes
+                          </div>
+                          <div class="item-leader">
+                            <i class="far fa-user"></i> Dec Finney
+                          </div>
+                        </div>
+                      </td>
+                      <td>
+                        <div class="timetable-item">
+                          <div class="item-time">
+                            13:45
+                          </div>
+                          <div class="item-class">
+                            yoga
+                          </div>
+                          <div class="item-length">
+                            <i class="far fa-clock"></i> 30 Minutes
+                          </div>
+                          <div class="item-leader">
+                            <i class="far fa-user"></i> Dec Finney
+                          </div>
+                        </div>
+                      </td>
+                    </tr>
+                    <tr class="bg-light-blue">
+                      <td class="timetable-hour">
+                        15:00
+                      </td>
+                      <td>
+                        <!-- for spacing -->
+                      </td>
+                      <td>
+                        <div class="timetable-item">
+                          <div class="item-time">
+                            15:45
+                          </div>
+                          <div class="item-class">
+                            kettlebell circuits
                           </div>
                           <div class="item-length">
                             <i class="far fa-clock"></i> 60 Minutes
@@ -109,11 +232,124 @@
                     </tr>
                     <tr class="bg-offwhite">
                       <td class="timetable-hour">
-                        9:00
+                        17:00
                       </td>
                       <td>
                         <div class="timetable-item">
-                          HIIT
+                          <div class="item-time">
+                            17:00
+                          </div>
+                          <div class="item-class">
+                            yoga
+                          </div>
+                          <div class="item-length">
+                            <i class="far fa-clock"></i> 30 Minutes
+                          </div>
+                          <div class="item-leader">
+                            <i class="far fa-user"></i> Dec Finney
+                          </div>
+                        </div>
+                      </td>
+                      <td>
+                        <div class="timetable-item">
+                          <div class="item-time">
+                            17:45
+                          </div>
+                          <div class="item-class">
+                            hiit
+                          </div>
+                          <div class="item-length">
+                            <i class="far fa-clock"></i> 45 Minutes
+                          </div>
+                          <div class="item-leader">
+                            <i class="far fa-user"></i> Dec Finney
+                          </div>
+                        </div>
+                      </td>
+                    </tr>
+                    <tr class="bg-light-blue">
+                      <td class="timetable-hour">
+                        19:00
+                      </td>
+                      <td colspan="2">
+                        <div class="timetable-item">
+                          <div class="item-time">
+                            19:15
+                          </div>
+                          <div class="item-class">
+                            spinning
+                          </div>
+                          <div class="item-length">
+                            <i class="far fa-clock"></i> 45 Minutes
+                          </div>
+                          <div class="item-leader">
+                            <i class="far fa-user"></i> Dec Finney
+                          </div>
+                        </div>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <div class="tab-pane fade" id="tuesday" role="tabpanel" aria-labelledby="tuesday-tab">
+                <table class="class-timetable">
+                  <span class="sr-only">Timetable of classes available</span>
+                  <tbody>
+                    <tr class="bg-light-blue">
+                      <td class="timetable-hour">
+                        7:00
+                      </td>
+                      <td>
+                        <div class="timetable-item">
+                          <div class="item-time">
+                            7:15
+                          </div>
+                          <div class="item-class">
+                            hiit
+                          </div>
+                          <div class="item-length">
+                            <i class="far fa-clock"></i> 60 Minutes
+                          </div>
+                          <div class="item-leader">
+                            <i class="far fa-user"></i> Dec Finney
+                          </div>
+                        </div>
+                      </td>
+                      <td>
+                        <div class="timetable-item">
+                          <div class="item-time">
+                            7:45
+                          </div>
+                          <div class="item-class">
+                            yoga
+                          </div>
+                          <div class="item-length">
+                            <i class="far fa-clock"></i> 30 Minutes
+                          </div>
+                          <div class="item-leader">
+                            <i class="far fa-user"></i> Dec Finney
+                          </div>
+                        </div>
+                      </td>
+                    </tr>
+                    <tr class="bg-offwhite">
+                      <td class="timetable-hour">
+                        9:00
+                      </td>
+                      <td colspan="2">
+                        <div class="timetable-item">
+                          <div class="item-time">
+                            7:15
+                          </div>
+                          <div class="item-class">
+                            kettlebell circuits
+                          </div>
+                          <div class="item-length">
+                            <i class="far fa-clock"></i> 60 Minutes
+                          </div>
+                          <div class="item-leader">
+                            <i class="far fa-user"></i> Dec Finney
+                          </div>
                         </div>
                       </td>
                     </tr>
@@ -122,8 +358,22 @@
                         11:00
                       </td>
                       <td>
+                        <!-- for spacing -->
+                      </td>
+                      <td>
                         <div class="timetable-item">
-                          HIIT
+                          <div class="item-time">
+                            11:45
+                          </div>
+                          <div class="item-class">
+                            spinning
+                          </div>
+                          <div class="item-length">
+                            <i class="far fa-clock"></i> 45 Minutes
+                          </div>
+                          <div class="item-leader">
+                            <i class="far fa-user"></i> Dec Finney
+                          </div>
                         </div>
                       </td>
                     </tr>
@@ -133,7 +383,34 @@
                       </td>
                       <td>
                         <div class="timetable-item">
-                          HIIT
+                          <div class="item-time">
+                            13:00
+                          </div>
+                          <div class="item-class">
+                            core & cardio circuits
+                          </div>
+                          <div class="item-length">
+                            <i class="far fa-clock"></i> 60 Minutes
+                          </div>
+                          <div class="item-leader">
+                            <i class="far fa-user"></i> Dec Finney
+                          </div>
+                        </div>
+                      </td>
+                      <td>
+                        <div class="timetable-item">
+                          <div class="item-time">
+                            13:45
+                          </div>
+                          <div class="item-class">
+                            yoga
+                          </div>
+                          <div class="item-length">
+                            <i class="far fa-clock"></i> 30 Minutes
+                          </div>
+                          <div class="item-leader">
+                            <i class="far fa-user"></i> Dec Finney
+                          </div>
                         </div>
                       </td>
                     </tr>
@@ -142,8 +419,22 @@
                         15:00
                       </td>
                       <td>
+                        <!-- for spacing -->
+                      </td>
+                      <td>
                         <div class="timetable-item">
-                          HIIT
+                          <div class="item-time">
+                            15:45
+                          </div>
+                          <div class="item-class">
+                            kettlebell circuits
+                          </div>
+                          <div class="item-length">
+                            <i class="far fa-clock"></i> 60 Minutes
+                          </div>
+                          <div class="item-leader">
+                            <i class="far fa-user"></i> Dec Finney
+                          </div>
                         </div>
                       </td>
                     </tr>
@@ -153,7 +444,34 @@
                       </td>
                       <td>
                         <div class="timetable-item">
-                          HIIT
+                          <div class="item-time">
+                            17:00
+                          </div>
+                          <div class="item-class">
+                            yoga
+                          </div>
+                          <div class="item-length">
+                            <i class="far fa-clock"></i> 30 Minutes
+                          </div>
+                          <div class="item-leader">
+                            <i class="far fa-user"></i> Dec Finney
+                          </div>
+                        </div>
+                      </td>
+                      <td>
+                        <div class="timetable-item">
+                          <div class="item-time">
+                            17:45
+                          </div>
+                          <div class="item-class">
+                            hiit
+                          </div>
+                          <div class="item-length">
+                            <i class="far fa-clock"></i> 45 Minutes
+                          </div>
+                          <div class="item-leader">
+                            <i class="far fa-user"></i> Dec Finney
+                          </div>
                         </div>
                       </td>
                     </tr>
@@ -161,32 +479,1065 @@
                       <td class="timetable-hour">
                         19:00
                       </td>
-                      <td>
+                      <td colspan="2">
                         <div class="timetable-item">
-                          HIIT
+                          <div class="item-time">
+                            19:15
+                          </div>
+                          <div class="item-class">
+                            spinning
+                          </div>
+                          <div class="item-length">
+                            <i class="far fa-clock"></i> 45 Minutes
+                          </div>
+                          <div class="item-leader">
+                            <i class="far fa-user"></i> Dec Finney
+                          </div>
                         </div>
                       </td>
                     </tr>
                   </tbody>
                 </table>
               </div>
-              <div class="tab-pane fade" id="tuesday" role="tabpanel" aria-labelledby="tuesday-tab">
-                Tuesday test
-              </div>
               <div class="tab-pane fade" id="wednesday" role="tabpanel" aria-labelledby="wednesday-tab">
-                Wednesday test
+                <table class="class-timetable">
+                  <span class="sr-only">Timetable of classes available</span>
+                  <tbody>
+                    <tr class="bg-light-blue">
+                      <td class="timetable-hour">
+                        7:00
+                      </td>
+                      <td>
+                        <div class="timetable-item">
+                          <div class="item-time">
+                            7:15
+                          </div>
+                          <div class="item-class">
+                            hiit
+                          </div>
+                          <div class="item-length">
+                            <i class="far fa-clock"></i> 60 Minutes
+                          </div>
+                          <div class="item-leader">
+                            <i class="far fa-user"></i> Dec Finney
+                          </div>
+                        </div>
+                      </td>
+                      <td>
+                        <div class="timetable-item">
+                          <div class="item-time">
+                            7:45
+                          </div>
+                          <div class="item-class">
+                            yoga
+                          </div>
+                          <div class="item-length">
+                            <i class="far fa-clock"></i> 30 Minutes
+                          </div>
+                          <div class="item-leader">
+                            <i class="far fa-user"></i> Dec Finney
+                          </div>
+                        </div>
+                      </td>
+                    </tr>
+                    <tr class="bg-offwhite">
+                      <td class="timetable-hour">
+                        9:00
+                      </td>
+                      <td colspan="2">
+                        <div class="timetable-item">
+                          <div class="item-time">
+                            7:15
+                          </div>
+                          <div class="item-class">
+                            kettlebell circuits
+                          </div>
+                          <div class="item-length">
+                            <i class="far fa-clock"></i> 60 Minutes
+                          </div>
+                          <div class="item-leader">
+                            <i class="far fa-user"></i> Dec Finney
+                          </div>
+                        </div>
+                      </td>
+                    </tr>
+                    <tr class="bg-light-blue">
+                      <td class="timetable-hour">
+                        11:00
+                      </td>
+                      <td>
+                        <!-- for spacing -->
+                      </td>
+                      <td>
+                        <div class="timetable-item">
+                          <div class="item-time">
+                            11:45
+                          </div>
+                          <div class="item-class">
+                            spinning
+                          </div>
+                          <div class="item-length">
+                            <i class="far fa-clock"></i> 45 Minutes
+                          </div>
+                          <div class="item-leader">
+                            <i class="far fa-user"></i> Dec Finney
+                          </div>
+                        </div>
+                      </td>
+                    </tr>
+                    <tr class="bg-offwhite">
+                      <td class="timetable-hour">
+                        13:00
+                      </td>
+                      <td>
+                        <div class="timetable-item">
+                          <div class="item-time">
+                            13:00
+                          </div>
+                          <div class="item-class">
+                            core & cardio circuits
+                          </div>
+                          <div class="item-length">
+                            <i class="far fa-clock"></i> 60 Minutes
+                          </div>
+                          <div class="item-leader">
+                            <i class="far fa-user"></i> Dec Finney
+                          </div>
+                        </div>
+                      </td>
+                      <td>
+                        <div class="timetable-item">
+                          <div class="item-time">
+                            13:45
+                          </div>
+                          <div class="item-class">
+                            yoga
+                          </div>
+                          <div class="item-length">
+                            <i class="far fa-clock"></i> 30 Minutes
+                          </div>
+                          <div class="item-leader">
+                            <i class="far fa-user"></i> Dec Finney
+                          </div>
+                        </div>
+                      </td>
+                    </tr>
+                    <tr class="bg-light-blue">
+                      <td class="timetable-hour">
+                        15:00
+                      </td>
+                      <td>
+                        <!-- for spacing -->
+                      </td>
+                      <td>
+                        <div class="timetable-item">
+                          <div class="item-time">
+                            15:45
+                          </div>
+                          <div class="item-class">
+                            kettlebell circuits
+                          </div>
+                          <div class="item-length">
+                            <i class="far fa-clock"></i> 60 Minutes
+                          </div>
+                          <div class="item-leader">
+                            <i class="far fa-user"></i> Dec Finney
+                          </div>
+                        </div>
+                      </td>
+                    </tr>
+                    <tr class="bg-offwhite">
+                      <td class="timetable-hour">
+                        17:00
+                      </td>
+                      <td>
+                        <div class="timetable-item">
+                          <div class="item-time">
+                            17:00
+                          </div>
+                          <div class="item-class">
+                            yoga
+                          </div>
+                          <div class="item-length">
+                            <i class="far fa-clock"></i> 30 Minutes
+                          </div>
+                          <div class="item-leader">
+                            <i class="far fa-user"></i> Dec Finney
+                          </div>
+                        </div>
+                      </td>
+                      <td>
+                        <div class="timetable-item">
+                          <div class="item-time">
+                            17:45
+                          </div>
+                          <div class="item-class">
+                            hiit
+                          </div>
+                          <div class="item-length">
+                            <i class="far fa-clock"></i> 45 Minutes
+                          </div>
+                          <div class="item-leader">
+                            <i class="far fa-user"></i> Dec Finney
+                          </div>
+                        </div>
+                      </td>
+                    </tr>
+                    <tr class="bg-light-blue">
+                      <td class="timetable-hour">
+                        19:00
+                      </td>
+                      <td colspan="2">
+                        <div class="timetable-item">
+                          <div class="item-time">
+                            19:15
+                          </div>
+                          <div class="item-class">
+                            spinning
+                          </div>
+                          <div class="item-length">
+                            <i class="far fa-clock"></i> 45 Minutes
+                          </div>
+                          <div class="item-leader">
+                            <i class="far fa-user"></i> Dec Finney
+                          </div>
+                        </div>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
               </div>
               <div class="tab-pane fade" id="thursday" role="tabpanel" aria-labelledby="thursday-tab">
-                Thursday test
+                <table class="class-timetable">
+                  <span class="sr-only">Timetable of classes available</span>
+                  <tbody>
+                    <tr class="bg-light-blue">
+                      <td class="timetable-hour">
+                        7:00
+                      </td>
+                      <td>
+                        <div class="timetable-item">
+                          <div class="item-time">
+                            7:15
+                          </div>
+                          <div class="item-class">
+                            hiit
+                          </div>
+                          <div class="item-length">
+                            <i class="far fa-clock"></i> 60 Minutes
+                          </div>
+                          <div class="item-leader">
+                            <i class="far fa-user"></i> Dec Finney
+                          </div>
+                        </div>
+                      </td>
+                      <td>
+                        <div class="timetable-item">
+                          <div class="item-time">
+                            7:45
+                          </div>
+                          <div class="item-class">
+                            yoga
+                          </div>
+                          <div class="item-length">
+                            <i class="far fa-clock"></i> 30 Minutes
+                          </div>
+                          <div class="item-leader">
+                            <i class="far fa-user"></i> Dec Finney
+                          </div>
+                        </div>
+                      </td>
+                    </tr>
+                    <tr class="bg-offwhite">
+                      <td class="timetable-hour">
+                        9:00
+                      </td>
+                      <td colspan="2">
+                        <div class="timetable-item">
+                          <div class="item-time">
+                            7:15
+                          </div>
+                          <div class="item-class">
+                            kettlebell circuits
+                          </div>
+                          <div class="item-length">
+                            <i class="far fa-clock"></i> 60 Minutes
+                          </div>
+                          <div class="item-leader">
+                            <i class="far fa-user"></i> Dec Finney
+                          </div>
+                        </div>
+                      </td>
+                    </tr>
+                    <tr class="bg-light-blue">
+                      <td class="timetable-hour">
+                        11:00
+                      </td>
+                      <td>
+                        <!-- for spacing -->
+                      </td>
+                      <td>
+                        <div class="timetable-item">
+                          <div class="item-time">
+                            11:45
+                          </div>
+                          <div class="item-class">
+                            spinning
+                          </div>
+                          <div class="item-length">
+                            <i class="far fa-clock"></i> 45 Minutes
+                          </div>
+                          <div class="item-leader">
+                            <i class="far fa-user"></i> Dec Finney
+                          </div>
+                        </div>
+                      </td>
+                    </tr>
+                    <tr class="bg-offwhite">
+                      <td class="timetable-hour">
+                        13:00
+                      </td>
+                      <td>
+                        <div class="timetable-item">
+                          <div class="item-time">
+                            13:00
+                          </div>
+                          <div class="item-class">
+                            core & cardio circuits
+                          </div>
+                          <div class="item-length">
+                            <i class="far fa-clock"></i> 60 Minutes
+                          </div>
+                          <div class="item-leader">
+                            <i class="far fa-user"></i> Dec Finney
+                          </div>
+                        </div>
+                      </td>
+                      <td>
+                        <div class="timetable-item">
+                          <div class="item-time">
+                            13:45
+                          </div>
+                          <div class="item-class">
+                            yoga
+                          </div>
+                          <div class="item-length">
+                            <i class="far fa-clock"></i> 30 Minutes
+                          </div>
+                          <div class="item-leader">
+                            <i class="far fa-user"></i> Dec Finney
+                          </div>
+                        </div>
+                      </td>
+                    </tr>
+                    <tr class="bg-light-blue">
+                      <td class="timetable-hour">
+                        15:00
+                      </td>
+                      <td>
+                        <!-- for spacing -->
+                      </td>
+                      <td>
+                        <div class="timetable-item">
+                          <div class="item-time">
+                            15:45
+                          </div>
+                          <div class="item-class">
+                            kettlebell circuits
+                          </div>
+                          <div class="item-length">
+                            <i class="far fa-clock"></i> 60 Minutes
+                          </div>
+                          <div class="item-leader">
+                            <i class="far fa-user"></i> Dec Finney
+                          </div>
+                        </div>
+                      </td>
+                    </tr>
+                    <tr class="bg-offwhite">
+                      <td class="timetable-hour">
+                        17:00
+                      </td>
+                      <td>
+                        <div class="timetable-item">
+                          <div class="item-time">
+                            17:00
+                          </div>
+                          <div class="item-class">
+                            yoga
+                          </div>
+                          <div class="item-length">
+                            <i class="far fa-clock"></i> 30 Minutes
+                          </div>
+                          <div class="item-leader">
+                            <i class="far fa-user"></i> Dec Finney
+                          </div>
+                        </div>
+                      </td>
+                      <td>
+                        <div class="timetable-item">
+                          <div class="item-time">
+                            17:45
+                          </div>
+                          <div class="item-class">
+                            hiit
+                          </div>
+                          <div class="item-length">
+                            <i class="far fa-clock"></i> 45 Minutes
+                          </div>
+                          <div class="item-leader">
+                            <i class="far fa-user"></i> Dec Finney
+                          </div>
+                        </div>
+                      </td>
+                    </tr>
+                    <tr class="bg-light-blue">
+                      <td class="timetable-hour">
+                        19:00
+                      </td>
+                      <td colspan="2">
+                        <div class="timetable-item">
+                          <div class="item-time">
+                            19:15
+                          </div>
+                          <div class="item-class">
+                            spinning
+                          </div>
+                          <div class="item-length">
+                            <i class="far fa-clock"></i> 45 Minutes
+                          </div>
+                          <div class="item-leader">
+                            <i class="far fa-user"></i> Dec Finney
+                          </div>
+                        </div>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
               </div>
               <div class="tab-pane fade" id="friday" role="tabpanel" aria-labelledby="friday-tab">
-                Friday test
+                <table class="class-timetable">
+                  <span class="sr-only">Timetable of classes available</span>
+                  <tbody>
+                    <tr class="bg-light-blue">
+                      <td class="timetable-hour">
+                        7:00
+                      </td>
+                      <td>
+                        <div class="timetable-item">
+                          <div class="item-time">
+                            7:15
+                          </div>
+                          <div class="item-class">
+                            hiit
+                          </div>
+                          <div class="item-length">
+                            <i class="far fa-clock"></i> 60 Minutes
+                          </div>
+                          <div class="item-leader">
+                            <i class="far fa-user"></i> Dec Finney
+                          </div>
+                        </div>
+                      </td>
+                      <td>
+                        <div class="timetable-item">
+                          <div class="item-time">
+                            7:45
+                          </div>
+                          <div class="item-class">
+                            yoga
+                          </div>
+                          <div class="item-length">
+                            <i class="far fa-clock"></i> 30 Minutes
+                          </div>
+                          <div class="item-leader">
+                            <i class="far fa-user"></i> Dec Finney
+                          </div>
+                        </div>
+                      </td>
+                    </tr>
+                    <tr class="bg-offwhite">
+                      <td class="timetable-hour">
+                        9:00
+                      </td>
+                      <td colspan="2">
+                        <div class="timetable-item">
+                          <div class="item-time">
+                            7:15
+                          </div>
+                          <div class="item-class">
+                            kettlebell circuits
+                          </div>
+                          <div class="item-length">
+                            <i class="far fa-clock"></i> 60 Minutes
+                          </div>
+                          <div class="item-leader">
+                            <i class="far fa-user"></i> Dec Finney
+                          </div>
+                        </div>
+                      </td>
+                    </tr>
+                    <tr class="bg-light-blue">
+                      <td class="timetable-hour">
+                        11:00
+                      </td>
+                      <td>
+                        <!-- for spacing -->
+                      </td>
+                      <td>
+                        <div class="timetable-item">
+                          <div class="item-time">
+                            11:45
+                          </div>
+                          <div class="item-class">
+                            spinning
+                          </div>
+                          <div class="item-length">
+                            <i class="far fa-clock"></i> 45 Minutes
+                          </div>
+                          <div class="item-leader">
+                            <i class="far fa-user"></i> Dec Finney
+                          </div>
+                        </div>
+                      </td>
+                    </tr>
+                    <tr class="bg-offwhite">
+                      <td class="timetable-hour">
+                        13:00
+                      </td>
+                      <td>
+                        <div class="timetable-item">
+                          <div class="item-time">
+                            13:00
+                          </div>
+                          <div class="item-class">
+                            core & cardio circuits
+                          </div>
+                          <div class="item-length">
+                            <i class="far fa-clock"></i> 60 Minutes
+                          </div>
+                          <div class="item-leader">
+                            <i class="far fa-user"></i> Dec Finney
+                          </div>
+                        </div>
+                      </td>
+                      <td>
+                        <div class="timetable-item">
+                          <div class="item-time">
+                            13:45
+                          </div>
+                          <div class="item-class">
+                            yoga
+                          </div>
+                          <div class="item-length">
+                            <i class="far fa-clock"></i> 30 Minutes
+                          </div>
+                          <div class="item-leader">
+                            <i class="far fa-user"></i> Dec Finney
+                          </div>
+                        </div>
+                      </td>
+                    </tr>
+                    <tr class="bg-light-blue">
+                      <td class="timetable-hour">
+                        15:00
+                      </td>
+                      <td>
+                        <!-- for spacing -->
+                      </td>
+                      <td>
+                        <div class="timetable-item">
+                          <div class="item-time">
+                            15:45
+                          </div>
+                          <div class="item-class">
+                            kettlebell circuits
+                          </div>
+                          <div class="item-length">
+                            <i class="far fa-clock"></i> 60 Minutes
+                          </div>
+                          <div class="item-leader">
+                            <i class="far fa-user"></i> Dec Finney
+                          </div>
+                        </div>
+                      </td>
+                    </tr>
+                    <tr class="bg-offwhite">
+                      <td class="timetable-hour">
+                        17:00
+                      </td>
+                      <td>
+                        <div class="timetable-item">
+                          <div class="item-time">
+                            17:00
+                          </div>
+                          <div class="item-class">
+                            yoga
+                          </div>
+                          <div class="item-length">
+                            <i class="far fa-clock"></i> 30 Minutes
+                          </div>
+                          <div class="item-leader">
+                            <i class="far fa-user"></i> Dec Finney
+                          </div>
+                        </div>
+                      </td>
+                      <td>
+                        <div class="timetable-item">
+                          <div class="item-time">
+                            17:45
+                          </div>
+                          <div class="item-class">
+                            hiit
+                          </div>
+                          <div class="item-length">
+                            <i class="far fa-clock"></i> 45 Minutes
+                          </div>
+                          <div class="item-leader">
+                            <i class="far fa-user"></i> Dec Finney
+                          </div>
+                        </div>
+                      </td>
+                    </tr>
+                    <tr class="bg-light-blue">
+                      <td class="timetable-hour">
+                        19:00
+                      </td>
+                      <td colspan="2">
+                        <div class="timetable-item">
+                          <div class="item-time">
+                            19:15
+                          </div>
+                          <div class="item-class">
+                            spinning
+                          </div>
+                          <div class="item-length">
+                            <i class="far fa-clock"></i> 45 Minutes
+                          </div>
+                          <div class="item-leader">
+                            <i class="far fa-user"></i> Dec Finney
+                          </div>
+                        </div>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
               </div>
               <div class="tab-pane fade" id="saturday" role="tabpanel" aria-labelledby="saturday-tab">
-                Saturday test
+                <table class="class-timetable">
+                  <span class="sr-only">Timetable of classes available</span>
+                  <tbody>
+                    <tr class="bg-light-blue">
+                      <td class="timetable-hour">
+                        7:00
+                      </td>
+                      <td>
+                        <div class="timetable-item">
+                          <div class="item-time">
+                            7:15
+                          </div>
+                          <div class="item-class">
+                            hiit
+                          </div>
+                          <div class="item-length">
+                            <i class="far fa-clock"></i> 60 Minutes
+                          </div>
+                          <div class="item-leader">
+                            <i class="far fa-user"></i> Dec Finney
+                          </div>
+                        </div>
+                      </td>
+                      <td>
+                        <div class="timetable-item">
+                          <div class="item-time">
+                            7:45
+                          </div>
+                          <div class="item-class">
+                            yoga
+                          </div>
+                          <div class="item-length">
+                            <i class="far fa-clock"></i> 30 Minutes
+                          </div>
+                          <div class="item-leader">
+                            <i class="far fa-user"></i> Dec Finney
+                          </div>
+                        </div>
+                      </td>
+                    </tr>
+                    <tr class="bg-offwhite">
+                      <td class="timetable-hour">
+                        9:00
+                      </td>
+                      <td colspan="2">
+                        <div class="timetable-item">
+                          <div class="item-time">
+                            7:15
+                          </div>
+                          <div class="item-class">
+                            kettlebell circuits
+                          </div>
+                          <div class="item-length">
+                            <i class="far fa-clock"></i> 60 Minutes
+                          </div>
+                          <div class="item-leader">
+                            <i class="far fa-user"></i> Dec Finney
+                          </div>
+                        </div>
+                      </td>
+                    </tr>
+                    <tr class="bg-light-blue">
+                      <td class="timetable-hour">
+                        11:00
+                      </td>
+                      <td>
+                        <!-- for spacing -->
+                      </td>
+                      <td>
+                        <div class="timetable-item">
+                          <div class="item-time">
+                            11:45
+                          </div>
+                          <div class="item-class">
+                            spinning
+                          </div>
+                          <div class="item-length">
+                            <i class="far fa-clock"></i> 45 Minutes
+                          </div>
+                          <div class="item-leader">
+                            <i class="far fa-user"></i> Dec Finney
+                          </div>
+                        </div>
+                      </td>
+                    </tr>
+                    <tr class="bg-offwhite">
+                      <td class="timetable-hour">
+                        13:00
+                      </td>
+                      <td>
+                        <div class="timetable-item">
+                          <div class="item-time">
+                            13:00
+                          </div>
+                          <div class="item-class">
+                            core & cardio circuits
+                          </div>
+                          <div class="item-length">
+                            <i class="far fa-clock"></i> 60 Minutes
+                          </div>
+                          <div class="item-leader">
+                            <i class="far fa-user"></i> Dec Finney
+                          </div>
+                        </div>
+                      </td>
+                      <td>
+                        <div class="timetable-item">
+                          <div class="item-time">
+                            13:45
+                          </div>
+                          <div class="item-class">
+                            yoga
+                          </div>
+                          <div class="item-length">
+                            <i class="far fa-clock"></i> 30 Minutes
+                          </div>
+                          <div class="item-leader">
+                            <i class="far fa-user"></i> Dec Finney
+                          </div>
+                        </div>
+                      </td>
+                    </tr>
+                    <tr class="bg-light-blue">
+                      <td class="timetable-hour">
+                        15:00
+                      </td>
+                      <td>
+                        <!-- for spacing -->
+                      </td>
+                      <td>
+                        <div class="timetable-item">
+                          <div class="item-time">
+                            15:45
+                          </div>
+                          <div class="item-class">
+                            kettlebell circuits
+                          </div>
+                          <div class="item-length">
+                            <i class="far fa-clock"></i> 60 Minutes
+                          </div>
+                          <div class="item-leader">
+                            <i class="far fa-user"></i> Dec Finney
+                          </div>
+                        </div>
+                      </td>
+                    </tr>
+                    <tr class="bg-offwhite">
+                      <td class="timetable-hour">
+                        17:00
+                      </td>
+                      <td>
+                        <div class="timetable-item">
+                          <div class="item-time">
+                            17:00
+                          </div>
+                          <div class="item-class">
+                            yoga
+                          </div>
+                          <div class="item-length">
+                            <i class="far fa-clock"></i> 30 Minutes
+                          </div>
+                          <div class="item-leader">
+                            <i class="far fa-user"></i> Dec Finney
+                          </div>
+                        </div>
+                      </td>
+                      <td>
+                        <div class="timetable-item">
+                          <div class="item-time">
+                            17:45
+                          </div>
+                          <div class="item-class">
+                            hiit
+                          </div>
+                          <div class="item-length">
+                            <i class="far fa-clock"></i> 45 Minutes
+                          </div>
+                          <div class="item-leader">
+                            <i class="far fa-user"></i> Dec Finney
+                          </div>
+                        </div>
+                      </td>
+                    </tr>
+                    <tr class="bg-light-blue">
+                      <td class="timetable-hour">
+                        19:00
+                      </td>
+                      <td colspan="2">
+                        <div class="timetable-item">
+                          <div class="item-time">
+                            19:15
+                          </div>
+                          <div class="item-class">
+                            spinning
+                          </div>
+                          <div class="item-length">
+                            <i class="far fa-clock"></i> 45 Minutes
+                          </div>
+                          <div class="item-leader">
+                            <i class="far fa-user"></i> Dec Finney
+                          </div>
+                        </div>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
               </div>
               <div class="tab-pane fade" id="sunday" role="tabpanel" aria-labelledby="sunday-tab">
-                Sunday test
+                <table class="class-timetable">
+                  <span class="sr-only">Timetable of classes available</span>
+                  <tbody>
+                    <tr class="bg-light-blue">
+                      <td class="timetable-hour">
+                        7:00
+                      </td>
+                      <td>
+                        <div class="timetable-item">
+                          <div class="item-time">
+                            7:15
+                          </div>
+                          <div class="item-class">
+                            hiit
+                          </div>
+                          <div class="item-length">
+                            <i class="far fa-clock"></i> 60 Minutes
+                          </div>
+                          <div class="item-leader">
+                            <i class="far fa-user"></i> Dec Finney
+                          </div>
+                        </div>
+                      </td>
+                      <td>
+                        <div class="timetable-item">
+                          <div class="item-time">
+                            7:45
+                          </div>
+                          <div class="item-class">
+                            yoga
+                          </div>
+                          <div class="item-length">
+                            <i class="far fa-clock"></i> 30 Minutes
+                          </div>
+                          <div class="item-leader">
+                            <i class="far fa-user"></i> Dec Finney
+                          </div>
+                        </div>
+                      </td>
+                    </tr>
+                    <tr class="bg-offwhite">
+                      <td class="timetable-hour">
+                        9:00
+                      </td>
+                      <td colspan="2">
+                        <div class="timetable-item">
+                          <div class="item-time">
+                            7:15
+                          </div>
+                          <div class="item-class">
+                            kettlebell circuits
+                          </div>
+                          <div class="item-length">
+                            <i class="far fa-clock"></i> 60 Minutes
+                          </div>
+                          <div class="item-leader">
+                            <i class="far fa-user"></i> Dec Finney
+                          </div>
+                        </div>
+                      </td>
+                    </tr>
+                    <tr class="bg-light-blue">
+                      <td class="timetable-hour">
+                        11:00
+                      </td>
+                      <td>
+                        <!-- for spacing -->
+                      </td>
+                      <td>
+                        <div class="timetable-item">
+                          <div class="item-time">
+                            11:45
+                          </div>
+                          <div class="item-class">
+                            spinning
+                          </div>
+                          <div class="item-length">
+                            <i class="far fa-clock"></i> 45 Minutes
+                          </div>
+                          <div class="item-leader">
+                            <i class="far fa-user"></i> Dec Finney
+                          </div>
+                        </div>
+                      </td>
+                    </tr>
+                    <tr class="bg-offwhite">
+                      <td class="timetable-hour">
+                        13:00
+                      </td>
+                      <td>
+                        <div class="timetable-item">
+                          <div class="item-time">
+                            13:00
+                          </div>
+                          <div class="item-class">
+                            core & cardio circuits
+                          </div>
+                          <div class="item-length">
+                            <i class="far fa-clock"></i> 60 Minutes
+                          </div>
+                          <div class="item-leader">
+                            <i class="far fa-user"></i> Dec Finney
+                          </div>
+                        </div>
+                      </td>
+                      <td>
+                        <div class="timetable-item">
+                          <div class="item-time">
+                            13:45
+                          </div>
+                          <div class="item-class">
+                            yoga
+                          </div>
+                          <div class="item-length">
+                            <i class="far fa-clock"></i> 30 Minutes
+                          </div>
+                          <div class="item-leader">
+                            <i class="far fa-user"></i> Dec Finney
+                          </div>
+                        </div>
+                      </td>
+                    </tr>
+                    <tr class="bg-light-blue">
+                      <td class="timetable-hour">
+                        15:00
+                      </td>
+                      <td>
+                        <!-- for spacing -->
+                      </td>
+                      <td>
+                        <div class="timetable-item">
+                          <div class="item-time">
+                            15:45
+                          </div>
+                          <div class="item-class">
+                            kettlebell circuits
+                          </div>
+                          <div class="item-length">
+                            <i class="far fa-clock"></i> 60 Minutes
+                          </div>
+                          <div class="item-leader">
+                            <i class="far fa-user"></i> Dec Finney
+                          </div>
+                        </div>
+                      </td>
+                    </tr>
+                    <tr class="bg-offwhite">
+                      <td class="timetable-hour">
+                        17:00
+                      </td>
+                      <td>
+                        <div class="timetable-item">
+                          <div class="item-time">
+                            17:00
+                          </div>
+                          <div class="item-class">
+                            yoga
+                          </div>
+                          <div class="item-length">
+                            <i class="far fa-clock"></i> 30 Minutes
+                          </div>
+                          <div class="item-leader">
+                            <i class="far fa-user"></i> Dec Finney
+                          </div>
+                        </div>
+                      </td>
+                      <td>
+                        <div class="timetable-item">
+                          <div class="item-time">
+                            17:45
+                          </div>
+                          <div class="item-class">
+                            hiit
+                          </div>
+                          <div class="item-length">
+                            <i class="far fa-clock"></i> 45 Minutes
+                          </div>
+                          <div class="item-leader">
+                            <i class="far fa-user"></i> Dec Finney
+                          </div>
+                        </div>
+                      </td>
+                    </tr>
+                    <tr class="bg-light-blue">
+                      <td class="timetable-hour">
+                        19:00
+                      </td>
+                      <td colspan="2">
+                        <div class="timetable-item">
+                          <div class="item-time">
+                            19:15
+                          </div>
+                          <div class="item-class">
+                            spinning
+                          </div>
+                          <div class="item-length">
+                            <i class="far fa-clock"></i> 45 Minutes
+                          </div>
+                          <div class="item-leader">
+                            <i class="far fa-user"></i> Dec Finney
+                          </div>
+                        </div>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
               </div>
             </div>
           </div>
