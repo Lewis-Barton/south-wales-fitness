@@ -15,6 +15,8 @@ img {
     image-rendering: -webkit-optimize-contrast;
 }
 
+/*                                                    SHARED PAGE STYLING */
+
 /* Backgrounds */
 .bg-offwhite {
     background-color: #f0f6f7;
@@ -66,6 +68,32 @@ img {
 .navbar-link:hover {
     color: #28527a;
 }
+
+/* Footer */
+footer {
+    background-color: #525252;
+    min-height: 100px;
+}
+
+.social-links {
+    font-size: 2rem;
+    text-align: center;
+}
+
+.social-links a {
+    margin: 0 9%;
+    color: #fff;
+}
+
+.social-links i {
+    margin-top: 3%;
+}
+
+.social-links a:hover {
+    color: #8ac4d0;
+}
+
+/*                                                    INDEX PAGE STYLING */
 
 /* Hero */
 #hero-image .container-fluid {
@@ -148,27 +176,12 @@ img {
     padding: 5% 0;
 }
 
+/*                                                    CLASSES PAGE STYLING */
 
-/* Footer */
-footer {
-    background-color: #525252;
-    min-height: 100px;
+#classes-tabs {
+    text-align: left;
 }
 
-.social-links {
-    font-size: 2rem;
-    text-align: center;
-}
-
-.social-links a {
-    margin: 0 9%;
-    color: #fff;
-}
-
-.social-links i {
-    margin-top: 3%;
-}
-
-.social-links a:hover {
-    color: #8ac4d0;
+#classes-tabs-content {
+    text-align: left;
 }
