@@ -75,3 +75,13 @@ Initial score 91/100
   * This is the same as the "Properly size images" in the opportunities, so again I have decided that this is not currently something that I can implement and it will be revisited at a later date.
 * Avoid enormous network payloads
   * Lazyload was added to the webpage to reduce the amount of data required when loading images.
+
+  ---
+
+**Browser testing**
+
+I tested the index page across FireFox, Brave, Google Chrome, Edge, Opera, and vivaldi that are all installed on my computer and then Safari from my iPhone.
+
+When testing it was noticed that the images did not render as nicely in the other browsers on mobile as it did in the development browser (FireFox) to fix this I applied a general rule to all `img` tags site wide to apply an image-rendering property that would better render the images.
+
+I had also found that I had used the `col-sm-*` class instead of `col-*` on the testimonials section which meant that below 576px it did not perform as expected, this was fixed by changing the class used.

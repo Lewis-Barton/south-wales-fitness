@@ -11,6 +11,10 @@ a , a:hover {
     text-decoration: none;
 }
 
+img {
+    image-rendering: -webkit-optimize-contrast;
+}
+
 /* Backgrounds */
 .bg-offwhite {
     background-color: #f0f6f7;
