@@ -20,7 +20,11 @@ img {
 /* Backgrounds */
 .bg-offwhite {
     background-color: #f0f6f7;
-    border-radius: 5px;
+}
+
+.bg-light-blue {
+    background-color: #8ac4d0;
+    color: #525252;
 }
 
 /* Buttons */
@@ -143,6 +147,10 @@ footer {
     margin-top: 2%;
 }
 
+#facilities .bg-offwhite {
+    border-radius: 5px;
+}
+
 .facilities-image {
     width: 100%;
     padding: 10% 0;
@@ -178,10 +186,75 @@ footer {
 
 /*                                                    CLASSES PAGE STYLING */
 
+/* Classes Nav */
+
 #classes-tabs {
     text-align: left;
 }
 
+#classes-tabs.nav-tabs {
+    border-bottom: none;
+}
+
 #classes-tabs-content {
     text-align: left;
+    height: 100%;
+}
+
+#classes-tabs-content > div {
+    height: 100%;
+}
+
+#classes-tabs-content .bg-offwhite {
+    color: #525252;
+}
+
+/* Class Timetable */
+
+.class-timetable {
+    width: 100%;
+    height: 100%;
+}
+
+.timetable-hour {
+    font-size: 1.1rem;
+    font-weight: 600;
+    padding: 0 5px;
+    width: 60px;
+    line-height: 1.5;
+    transform: rotate(270deg);
+}
+
+/* Timetable Item */
+
+.timetable-item {
+    background-color: #fff;
+    padding: 3%;
+    border-radius: 3px;
+    width: 130px;
+    height: 130px;
+    margin: 5% 0;
+}
+
+.timetable-item div {
+    margin: 5% 0;
+}
+
+.item-class {
+    font-size: .8rem;
+    font-weight: 700;
+}
+
+.item-time {
+    color: #000;
+    font-weight: 900;
+    font-size: .9rem;
+}
+
+.item-length {
+    font-size: .7rem;
+}
+
+.item-leader {
+    font-size: .7rem;
 }
