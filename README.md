@@ -193,6 +193,7 @@ All wireframes were completed in Balsamiq before any programming had started. I 
 * [Lazysizes](https://github.com/aFarkas/lazysizes?utm_source=cdnjs&utm_medium=cdnjs_link&utm_campaign=cdnjs_library) was used to optimise loading of images.
 * **HTML and CSS** are the two langauges that are used during this project.
 * [Google Fonts](https://fonts.google.com/) was used for the fonts for the website.
+* [typosaurus](https://typosaur.us/) was used for spell-checking deployed web pages.
 
 [Back to Index](#index)
 # **Testing**
@@ -220,6 +221,18 @@ the process for each page, what was checked, how it was checked and if any error
 
 ## GitHub Pages
 ---
+
+This project was developed using [VS Code text editor](https://code.visualstudio.com/) along side the [Live server by ritwick dey](https://ritwickdey.github.io/vscode-live-server/) extension, commited to git and pushed to GitHub using the [GitBash](https://git-scm.com/downloads) terminal.
+
+To deploy this page to GitHub Pages from its [GitHub repository](https://github.com/Lewis-Barton/south-wales-fitness), the following steps were taken:
+
+1. Log into GitHub
+1. From the list of repositories on the screen, select **Lewis-Barton/south-wales-fitness**
+1. Select **Settings**, from the menu items near the top of the page.
+1. Select **Pages**, from the tab on the left hand side of the screen.
+1. Under the **Source** section, click the drop-down menu labelled **none** and select **Main**.
+1. On selecting Main Branch the page is automatically refreshed, and the website is now deployed.
+1. Go back to the **Pages** section to retrieve the link to the deployed website.
 
 [Back to Index](#index)
 ## How to run this project locally
