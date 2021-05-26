@@ -14,7 +14,10 @@
 # **HTML**
 
 ## Index.html
-Initial check for errors in code done using [W3C Markup Validation Service](https://validator.w3.org/) - No errors came back on this so moved onto further testing methods.
+Initial check for errors in code done using [W3C Markup Validation Service](https://validator.w3.org/)
+
+* `` img `` tag missing ``src``
+  * This was due to chaning the ``src`` to ``data-src`` and not adding it as a new attribute instead. - All ``img`` tags had the src attribute added which fixed the error.
 
 The page was then checked for spelling mistakes using [typosaurus](https://typosaur.us/)
 
@@ -93,7 +96,9 @@ I had also found that I had used the `col-sm-*` class instead of `col-*` on the 
 Initial check for errors in code done using [W3C Markup Validation Service](https://validator.w3.org/)
 
 * Start tag ``<span>`` seen in table.
-  * Initially this was used for accessibility reasons as I did not want to use a caption over the top of the timetable. After reading this article by [WebAIM](https://webaim.org/techniques/tables/data) I amended all of the table elements to have the scope added to all ``<th> `` elements in the tables.
+  * Initially this was used for accessibility reasons as I did not want to use a caption over the top of the timetable. After reading this article by [WebAIM](https://webaim.org/techniques/tables/data) I amended all of the table elements to have the scope added to all ``<th> `` elements in the tables. - this resolved the issue.
+* `` img `` tag missing ``src``
+  * This was due to chaning the ``src`` to ``data-src`` and not adding it as a new attribute instead. - All ``img`` tags had the src attribute added which fixed the error.
 
 The page was then checked for spelling mistakes using [typosaurus](https://typosaur.us/)
 
