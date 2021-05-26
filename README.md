@@ -231,7 +231,7 @@ the process for each page, what was checked, how it was checked and if any error
 ## Content
 ---
 
-* [tfliving](https://tfliving.com/2020/03/13/10-popular-group-fitness-classes-and-what-to-expect-if-you-go-to-one/) - Article of sample classes offered in a gym that the classes for the website were chosen from.
+* [tfliving](https://tfliving.com/2020/03/13/10-popular-group-fitness-classes-and-what-to-expect-if-you-go-to-one/) - Article of sample classes offered in a gym that the classes for the website were chosen from. This was also used as inspiration for class descriptions.
 * [Fit & Me](https://www.fitandme.com/guide-gym-equipment-names-how-to-use/) - Article with list of gym equipment that was used for the facilities section.
 * [Eat, Sleep, Wander.](https://eatsleepwander.com/gym-review-example/) - Testimonial inspiration taken from this article.
 
