@@ -194,6 +194,7 @@ All wireframes were completed in Balsamiq before any programming had started. I 
 * **HTML and CSS** are the two langauges that are used during this project.
 * [Google Fonts](https://fonts.google.com/) was used for the fonts for the website.
 * [typosaurus](https://typosaur.us/) was used for spell-checking deployed web pages.
+* [Google Maps URLs](https://developers.google.com/maps) was used for address link to open directions.
 
 [Back to Index](#index)
 # **Testing**
@@ -265,6 +266,7 @@ To deploy this page to GitHub Pages from its [GitHub repository](https://github.
 * [MDN](https://developer.mozilla.org/en-US/) - Learning resource.
 * [Bootstrap Docs](https://getbootstrap.com/docs/4.6/getting-started/introduction/) - Learning resource.
 * [BootstrapCreative](https://bootstrapcreative.com/bootstrap-push-pull-column-ordering-tutorial/) - Tutorial for bootstrap order class
+* [Google Maps Platform](https://developers.google.com/maps/documentation/urls/get-started#map-examples_1) - Learning resource
 
 [Back to Index](#index)
 ## Acknowledgements

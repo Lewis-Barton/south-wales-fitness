@@ -279,6 +279,7 @@ td[colspan="2"] .timetable-item {
 }
 
 /*                                                    INFORMATION PAGE STYLING */
+/* Contact Us */
 #contact-us .bg-light-blue {
     border-radius: 5px;
 }
@@ -287,6 +288,15 @@ td[colspan="2"] .timetable-item {
     width: 100%;
     max-width: 250px;
     padding: 3%;
+}
+
+#contact-us a {
+    color: inherit;
+}
+
+/* FAQS */
+.faq-item {
+    padding: 4% 0;
 }
 
 /*                                                    MEDIA QUERIES */
