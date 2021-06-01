@@ -278,7 +278,18 @@ td[colspan="2"] .timetable-item {
     padding: 5%;
 }
 
-/* Media Queries */
+/*                                                    INFORMATION PAGE STYLING */
+#contact-us .bg-light-blue {
+    border-radius: 5px;
+}
+
+#contact-us img {
+    width: 100%;
+    max-width: 250px;
+    padding: 3%;
+}
+
+/*                                                    MEDIA QUERIES */
 @media (min-width: 1200px){
     .timetable-item {
         width: 150px;
