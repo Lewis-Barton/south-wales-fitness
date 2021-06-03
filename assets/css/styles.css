@@ -40,6 +40,10 @@ img {
     background-color: #28527a;
 }
 
+.btn-cta a {
+    color: inherit;
+}
+
 /* Headers */
 .lg-header {
     margin: 5% 0;
@@ -297,6 +301,21 @@ td[colspan="2"] .timetable-item {
 /* FAQS */
 .faq-item {
     padding: 4% 0;
+}
+
+/*                                                    404 PAGE STYLING */
+#error {
+    min-height: 75vh;
+    /* https://unsplash.com/photos/fk4tiMlDFF0 */
+    background-image: url(../images/puppy.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+#error .container-fluid {
+    padding: 0;
 }
 
 /*                                                    MEDIA QUERIES */
