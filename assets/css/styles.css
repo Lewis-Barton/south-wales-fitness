@@ -119,13 +119,7 @@ footer {
     font-weight: 600;
 }
 
-/*                                                    INDEX PAGE STYLING */
-
-/* Hero */
-#hero-image .container-fluid {
-    padding: 0;
-}
-
+/* Banner Styling */
 .banner-container {
     background-color: black;
     position: relative;
@@ -162,6 +156,12 @@ footer {
 
 .banner-text .btn-cta {
     margin-top: 20px;
+}
+
+/*                                                    INDEX PAGE STYLING */
+/* Hero */
+#hero-image .container-fluid {
+    padding: 0;
 }
 
 /* Facilities */
@@ -301,6 +301,10 @@ td[colspan="2"] .timetable-item {
 }
 
 /*                                                    INFORMATION PAGE STYLING */
+#information .lg-header {
+    padding-top: 3%;
+}
+
 /* Contact Us */
 #contact-us .bg-light-blue {
     border-radius: 5px;
@@ -321,13 +325,35 @@ td[colspan="2"] .timetable-item {
     padding: 4% 0;
 }
 
-#faq-toc {
+.faq-toc {
     padding-top: 3%;
     text-align: center;
 }
 
-#faq-toc .toc-contents {
+.faq-container .toc-contents {
     text-align: left;
+}
+
+/*                                                    PRICING PAGE STYLING */
+/* Hero */
+#pricing-hero .container-fluid {
+    padding: 0;
+    overflow-x: hidden;
+}
+
+#pricing-hero .banner-text {
+    position: absolute;
+    text-align: center;
+    color: #28527a;
+    font-weight: 900;
+    top: 15%;
+    left: 1%;
+    transform: translate(0);
+    background-color: #fcfcfc;
+    border-radius: 4px;
+    opacity: 0.9;
+    height: 300px;
+    width: 300px;
 }
 
 /*                                                    404 PAGE STYLING */
