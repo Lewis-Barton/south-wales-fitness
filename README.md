@@ -1,4 +1,4 @@
-# **[South Wales Fitness]()**
+# **[South Wales Fitness](https://lewis-barton.github.io/south-wales-fitness/index.html)**
 
 # **Project Description**
 
@@ -23,18 +23,18 @@ From these assumptions and the information I have gathered I am using the 5 plan
     * [Information Architecture](#information-architecture)
     * [UI Styling](#ui-styling)
   * [Wireframes](#wireframes)
-* [Features](#)
-  * [Existing Features](#)
-  * [Features left to Implement](#)
+* [Features](#features)
+  * [Existing Features](#existing-features)
+  * [Features left to Implement](#features-left-to-implement)
 * [Technologies Used](#technologies-used)
-* [Testing](#)
+* [Testing](#testing)
   * [Testing Write-Ups](#)
   * [Bugs Discovered](#)
     * [Solved Bugs](#)
     * [Un-resolved Bugs](#)
-* [Deployment](#)
-  * [GitHub Pages](#)
-  * [How to run this project locally](#)
+* [Deployment](#deployment)
+  * [GitHub Pages](#github-pages)
+  * [How to run this project locally](#how-to-run-this-project-locally)
 * [Credits](#credits)
   * [Content](#content)
   * [Media](#media)
@@ -175,7 +175,7 @@ All wireframes were completed in Balsamiq before any programming had started. I 
 [Back to Index](#index)
 # **Features**
 
-## Exisiting Features
+## Existing Features
 ---
 
 [Back to Index](#index)
@@ -199,23 +199,8 @@ All wireframes were completed in Balsamiq before any programming had started. I 
 [Back to Index](#index)
 # **Testing**
 
-## Testing Write-Ups
----
-
-For full documentation on how all of the tests on each document were carried out please see my [testing write up](testing.md) here where I go through
+For full documentation on how all of the tests on each document were carried out please see my [testing write up here](testing.md) where I go through
 the process for each page, what was checked, how it was checked and if any errors arose from these test, how they were fixed.
-
-[Back to Index](#index)
-## Bugs Discovered
----
-
-[Back to Index](#index)
-### Solved Bugs
----
-
-[Back to Index](#index)
-### Un-resolved Bugs
----
 
 [Back to Index](#index)
 # **Deployment**
@@ -238,6 +223,33 @@ To deploy this page to GitHub Pages from its [GitHub repository](https://github.
 [Back to Index](#index)
 ## How to run this project locally
 ---
+
+It is also possible to run this project on a local machine, in order to do this you would have to clone this project from GitHub. There are multiple ways in which this can be completed, these have been outlined below.
+
+**Cloning with Git Bash**
+
+1. Follow this link to the [GitHub repository](https://github.com/Lewis-Barton/south-wales-fitness)
+1. Near the top of the page on the right hand side there will be a button labelled 'Code' click on this.
+1. In the HTTPS section click the clip board on the right hand side to copy the URL.
+1. Open [Git Bash]() on your machine.
+1. Change the working directory to the location where you want the repository to be cloned to.
+1. Type `git clone` then paste the URL copied from section 3
+`git clone https://github.com/Lewis-Barton/south-wales-fitness.git`
+
+1. Press Enter and you local clone will begin downloading and be created onto your machine.
+
+**GitHub Desktop**
+1. Follow this link to the [GitHub repository](https://github.com/Lewis-Barton/south-wales-fitness)
+1. Near the top of the page on the right hand side there will be a button labelled 'Code' click on this.
+1. Below the HTTPS section there is an option labelled "Open with GitHub Desktop"
+1. If you have this installed it will open up the programme on your machine, if you follow the steps shown on the screen you will then have a copy of the repository on your machine. If you do not have the programme installed on your machine then clicking on this option will take you to the download section for GitHub Desktop, once this has been downloaded and installed it will continue setting up the repository to be copied to your machine locally.
+
+**Download and extract the zip directly from GitHub**
+1. Follow this link to the [GitHub repository](https://github.com/Lewis-Barton/south-wales-fitness)
+1. Near the top of the page on the right hand side there will be a button labelled 'Code' click on this.
+1. At the bottom of this pop-out there is an option labelled "Download ZIP" press this button to download the full directory to your machine.
+1. Once the ZIP has been downloaded open it with your extractor of choice (7zip, winrar, etc.)
+1. If you drag and drop the folder inside of this it will have all of the files from the repository to be viewed/edited on your local machine.
 
 [Back to Index](#index)
 # **Credits**
