@@ -58,6 +58,12 @@ img {
     font-size: 1.5rem;
 }
 
+.toc-header {
+    font-size: 1.25rem;
+    color: #525252;
+    font-weight: 300;
+}
+
 /* Navbar */
 .navbar-logo {
     height: 150px;
@@ -99,6 +105,18 @@ footer {
 
 .social-links a:hover {
     color: #8ac4d0;
+}
+
+/* Table of Contents */
+.toc-contents {
+    list-style: none;
+    line-height: 1.5;
+}
+
+.toc-item {
+    padding: 4% 0;
+    font-size: .9rem;
+    font-weight: 600;
 }
 
 /*                                                    INDEX PAGE STYLING */
@@ -303,6 +321,15 @@ td[colspan="2"] .timetable-item {
     padding: 4% 0;
 }
 
+#faq-toc {
+    padding-top: 3%;
+    text-align: center;
+}
+
+#faq-toc .toc-contents {
+    text-align: left;
+}
+
 /*                                                    404 PAGE STYLING */
 #error {
     min-height: 75vh;
@@ -311,6 +338,10 @@ td[colspan="2"] .timetable-item {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    overflow: hidden;
     position: relative;
 }
 
