@@ -8,12 +8,13 @@
   * [classes.html](#classes.html)
   * [information.html]()
   * [pricing.html]()
+  * [404.html](#404.html)
 * **[CSS]()**
 
 
 # **HTML**
 
-## Index.html
+## **Index.html**
 Initial check for errors in code done using [W3C Markup Validation Service](https://validator.w3.org/)
 
 * `` img `` tag missing ``src``
@@ -91,7 +92,7 @@ When testing it was noticed that the images did not render as nicely in the othe
 
 I had also found that I had used the `col-sm-*` class instead of `col-*` on the testimonials section which meant that below 576px it did not perform as expected, this was fixed by changing the class used.
 
-## Classes.html
+## **Classes.html**
 
 Initial check for errors in code done using [W3C Markup Validation Service](https://validator.w3.org/)
 
@@ -162,6 +163,73 @@ Initial score 99/100
   * This recommended that the cache-control be increased to speed up multipl visits. After researching into this I found [this artice](https://webapps.stackexchange.com/questions/119286/caching-assets-in-website-served-from-github-pages) which shows that due to the deployment on GitHub Pages it is not possible to increase this. I am unable to resolve this with the current resources and skillset.
 * Image elements do not have explicit width and height
   * This is the same as the "Properly size images" in the opportunities, so again I have decided that this is not currently something that I can implement and it will be revisited at a later date.
+
+  ---
+
+**Browser testing**
+
+I tested the index page across FireFox, Brave, Google Chrome, Edge, Opera, and vivaldi that are all installed on my computer and then Safari from my iPhone. 
+
+After the adjustments that were already made for the index page no issue were identified from looking at it with multiple browsers.
+
+## **404.html**
+
+Initial check for errors in code done using [W3C Markup Validation Service](https://validator.w3.org/)
+
+* `<a>` must not appear as a descendant of the `button` element
+  * This error was resolved by moving the `<a>` outside of the button element, everything still functioned the same, but it would now pass validation.
+
+The page was then checked for spelling mistakes using [typosaurus](https://typosaur.us/)
+
+---
+
+I then moved on to test with [PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights/) this came back with the following audit points that needed to be addressed.
+
+### **Mobile**
+Initial score 69/100
+
+#### **Lab Data**
+* First Contentful Paint - 3.1s (high)
+* Time to Interactive - 3.1s (good)
+* Speed Index - 3.2s (good)
+* Total Blocking Time - 0ms (good)
+* Largest Contentful Paint - 17.9s (high)
+* Cumulative Layout Shift 0 (good)
+
+**Opportunities Identified**
+* Eliminate render-blocking resources - Estimated saving 1.12s
+  * This was showing that the bootstrap and FA CDN scripts should be loaded with async or defer but due to the importance of the two and errors caused by using these with either of the two I am unable to resolve this issue.
+* Remove unused CSS - estimated saving 0.3s
+  * This was showing that the CSS files from bootstrap and FontAwesome were not used, but the classes and styling from both of these are used consistanely throughout this page so they cannot be removed.
+* Properly size images - Estimated saving 0.15s
+  * This recommended that I use multiple images to save load times on images. I tested this by using the [ImageMagick CLI](https://www.imagemagick.org/script/index.php) to resize and then using `srcset` property on the images but I was unable to get this to properly function and due to time restrictions on the project I had decided to leave this to be revisited in future to implement.
+
+**Diagnostics**
+* Serve static assets with an efficient cache policy
+  * This recommended that the cache-control be increased to speed up multipl visits. After researching into this I found [this artice](https://webapps.stackexchange.com/questions/119286/caching-assets-in-website-served-from-github-pages) which shows that due to the deployment on GitHub Pages it is not possible to increase this. I am unable to resolve this with the current resources and skillset.
+* Avoid enormous network payloads
+  * Lazyload was added to the webpage to reduce the amount of data required when loading images.
+
+### **Desktop**
+Initial score 82/100
+
+#### **Lab Data**
+* First Contentful Paint - 0.7s (good)
+* Time to Interactive - 0.7s (good)
+* Speed Index - 1.2s (good)
+* Total Blocking Time - 0ms (good)
+* Largest Contentful Paint - 3.1s (high)
+* Cumulative Layout Shift 0.001 (good)
+
+**Opportunities Identified**
+* Eliminate render-blocking resources - Estimated saving 0.49s
+  * This is also the same as the issue with the mobile section so cannot be resolved as the scripts identified are needed for the site.d.
+
+**Diagnostics**
+* Serve static assets with an efficient cache policy
+  * This recommended that the cache-control be increased to speed up multipl visits. After researching into this I found [this artice](https://webapps.stackexchange.com/questions/119286/caching-assets-in-website-served-from-github-pages) which shows that due to the deployment on GitHub Pages it is not possible to increase this. I am unable to resolve this with the current resources and skillset.
+* Avoid enormous network payloads
+  * Lazyload was added to the webpage to reduce the amount of data required when loading images.
 
   ---
 
