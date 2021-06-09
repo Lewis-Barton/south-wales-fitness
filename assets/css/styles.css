@@ -445,4 +445,9 @@ td[colspan="2"] .timetable-item {
         width: 150px;
         height: 150px;
     }
+
+    #pricing-hero .banner-text {
+        left: 3%;
+        top: 7%;
+    }
 }
