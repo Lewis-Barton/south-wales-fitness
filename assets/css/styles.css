@@ -326,7 +326,7 @@ td[colspan="2"] .timetable-item {
 
 /* FAQS */
 .faq-item {
-    padding: 4% 0;
+    padding: 4%;
 }
 
 .faq-toc {
@@ -336,6 +336,15 @@ td[colspan="2"] .timetable-item {
 
 .faq-container .toc-contents {
     text-align: left;
+}
+
+/* Disclaimer */
+#disclaimer {
+    margin-bottom: 3%;
+}
+
+#disclaimer p {
+    padding: 0 4%;
 }
 
 /*                                                    PRICING PAGE STYLING */
