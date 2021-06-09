@@ -320,6 +320,10 @@ td[colspan="2"] .timetable-item {
     color: inherit;
 }
 
+#contact-us .col-8 {
+    padding-left: 5%;
+}
+
 /* FAQS */
 .faq-item {
     padding: 4% 0;
@@ -354,6 +358,66 @@ td[colspan="2"] .timetable-item {
     opacity: 0.9;
     height: 300px;
     width: 300px;
+}
+
+/* Card Styling */
+#pricing .card {
+    margin: 3% 0;
+}
+
+#pricing .card-body {
+    padding: 0.5%;
+}
+
+#pricing .card img {
+    width: 100%;
+}
+
+#pricing .card-text {
+    padding: 2% 0 2% 2%;
+}
+
+/* Membership Styling */
+.membership-header {
+    position: relative;
+    min-height: 50px;
+    color: #fff;
+    font-weight: 600;
+    font-size: 1.25rem;
+}
+
+.membership-title {
+    position: absolute;
+    left: 3%;
+    top: 3%;
+}
+
+.membership-price {
+    position: absolute;
+    right: 3%;
+    top: 3%;
+}
+
+.monthly-container {
+    position: absolute;
+    right: 3%;
+    bottom: 3%;
+}
+
+#basic-membership .membership-header {
+    background-color: #8ac4d0;
+}
+
+#basic-membership i {
+    color: #8ac4d0;
+}
+
+#enhanced-membership .membership-header {
+    background-color: #7aa130;
+}
+
+#enhanced-membership i {
+    color: #7aa130;
 }
 
 /*                                                    404 PAGE STYLING */
