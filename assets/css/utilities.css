@@ -1,0 +1,156 @@
+/* General Styling */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
+
+body {
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+a , a:hover {
+    text-decoration: none;
+}
+
+img {
+    image-rendering: -webkit-optimize-contrast;
+}
+
+/*                                                    SHARED PAGE STYLING */
+
+/* Backgrounds */
+.bg-offwhite {
+    background-color: #f0f6f7;
+}
+
+.bg-light-blue {
+    background-color: #8ac4d0;
+    color: #525252;
+}
+
+/* Buttons */
+.btn-cta {
+    background-color: #8ac4d0;
+    border-style: none;
+    border-radius: 5px;
+    color: #fcfcfc;
+    padding: .3rem .75rem;
+}
+
+.btn-cta:hover {
+    background-color: #28527a;
+}
+
+.btn-cta a {
+    color: inherit;
+}
+
+/* Headers */
+.lg-header {
+    margin: 5% 0;
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 400;
+}
+
+.muted-header {
+    color: #525252;
+    font-weight: 300;
+    font-size: 1.5rem;
+}
+
+.toc-header {
+    font-size: 1.25rem;
+    color: #525252;
+    font-weight: 300;
+}
+
+/* Navbar */
+.navbar-logo {
+    height: 150px;
+    width: 150px;
+}
+
+.navbar-link {
+    color: #8ac4d0;
+
+    /* Padding and display values taken from nav-link bootstrap class */
+
+    padding: .5rem;
+    display: block;
+}
+
+.navbar-link:hover {
+    color: #28527a;
+}
+
+/* Footer */
+footer {
+    background-color: #525252;
+    min-height: 100px;
+}
+
+.social-links {
+    font-size: 2rem;
+    text-align: center;
+    width: 100%;
+}
+
+.social-links a {
+    color: #fff;
+    margin-top: 3%;
+}
+
+.social-links a:hover {
+    color: #8ac4d0;
+}
+
+/* Table of Contents */
+.toc-contents {
+    list-style: none;
+    line-height: 1.5;
+}
+
+.toc-item {
+    padding: 4% 0;
+    font-size: .9rem;
+    font-weight: 600;
+}
+
+/* Banner Styling */
+.banner-container {
+    background-color: black;
+    position: relative;
+}
+
+.hero-banner {
+    opacity: 0.6;
+    width: 100%;
+    height: 50vh;
+    min-height: 350px;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.banner-text{
+    position: absolute;
+    text-align: center;
+    color: #28527a;
+    font-weight: 900;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fcfcfc;
+    border-radius: 4px;
+    opacity: 0.9;
+    height: 300px;
+    width: 300px;
+}
+
+.banner-text h3 {
+    margin-top: 25%;
+    padding: 0 20px;
+}
+
+.banner-text .btn-cta {
+    margin-top: 20px;
+}

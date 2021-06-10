@@ -395,4 +395,14 @@ After the adjustments that were already made for the index page no issue were id
 # **CSS**
 ## **Style.css**
 
+Initially this file was checked with [W3C CSS Validation Service Jigsaw](https://jigsaw.w3.org/css-validator/)
+
+The document passed validation as CSS level 3 + SVG, however it did produce the following 3 warnings:
+
+* `-webkit-background-size` is an unknown vendor extension.
+* `-moz-background-size` is an unknown vendor extension.
+* `-o-background-size` is an unknown vendor extension.
+
+I felt that these 3 warnings were not cause for concern, all of the unknown vendor extension warnings are because it can only validate against valid code, which the vendor extensions are proprietary code but are needed for browser compatibility. These codes will always show as invalid because of this. [Article response by RyanReese explaining this.](https://www.sitepoint.com/community/t/css-validation-unknown-vendor-extensions/125616)
+
 ## **Utilities.css**
