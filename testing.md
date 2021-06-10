@@ -2,7 +2,6 @@
 [Back to README](README.md)
 
 # **Contents**
-
 * **[HTML](#html)**
   * [index.html](#index.html)
   * [classes.html](#classes.html)
@@ -13,7 +12,6 @@
 
 
 # **HTML**
-
 ## **Index.html**
 Initial check for errors in code done using [W3C Markup Validation Service](https://validator.w3.org/)
 
@@ -82,18 +80,18 @@ Initial score 91/100
 * Avoid enormous network payloads
   * Lazyload was added to the webpage to reduce the amount of data required when loading images.
 
-  ---
+---
 
 **Browser testing**
-
 I tested the index page across FireFox, Brave, Google Chrome, Edge, Opera, and vivaldi that are all installed on my computer and then Safari from my iPhone.
 
 When testing it was noticed that the images did not render as nicely in the other browsers on mobile as it did in the development browser (FireFox) to fix this I applied a general rule to all `img` tags site wide to apply an image-rendering property that would better render the images.
 
 I had also found that I had used the `col-sm-*` class instead of `col-*` on the testimonials section which meant that below 576px it did not perform as expected, this was fixed by changing the class used.
 
-## **Classes.html**
+---
 
+## **Classes.html**
 Initial check for errors in code done using [W3C Markup Validation Service](https://validator.w3.org/)
 
 * Start tag ``<span>`` seen in table.
@@ -164,16 +162,16 @@ Initial score 99/100
 * Image elements do not have explicit width and height
   * This is the same as the "Properly size images" in the opportunities, so again I have decided that this is not currently something that I can implement and it will be revisited at a later date.
 
-  ---
+---
 
 **Browser testing**
-
 I tested the index page across FireFox, Brave, Google Chrome, Edge, Opera, and vivaldi that are all installed on my computer and then Safari from my iPhone. 
 
 After the adjustments that were already made for the index page no issue were identified from looking at it with multiple browsers.
 
-## **Information.html**
+---
 
+## **Information.html**
 Initial check for errors in code done using [W3C Markup Validation Service](https://validator.w3.org/) - No issues or warnings were shown from this.
 
 The page was then checked for spelling mistakes using [typosaurus](https://typosaur.us/) - 3 errors were identified that were then amended.
@@ -232,16 +230,16 @@ Initial score 99/100
 * Serve static assets with an efficient cache policy
   * This recommended that the cache-control be increased to speed up multipl visits. After researching into this I found [this artice](https://webapps.stackexchange.com/questions/119286/caching-assets-in-website-served-from-github-pages) which shows that due to the deployment on GitHub Pages it is not possible to increase this. I am unable to resolve this with the current resources and skillset.
 
-  ---
+---
 
 **Browser testing**
-
 I tested the index page across FireFox, Brave, Google Chrome, Edge, Opera, and vivaldi that are all installed on my computer and then Safari from my iPhone. 
 
 After the adjustments that were already made for the index page no issue were identified from looking at it with multiple browsers.
 
-## **Pricing.html**
+--- 
 
+## **Pricing.html**
 Initial check for errors in code done using [W3C Markup Validation Service](https://validator.w3.org/) - No issues were identified with this test.
 
 The page was then checked for spelling mistakes using [typosaurus](https://typosaur.us/) - 3 errors were identified using this that were then corrected to the correct context/spellings.
@@ -266,7 +264,6 @@ Initial score 67/100
   * This recommended that I use multiple images to save load times on images. I tested this by using the [ImageMagick CLI](https://www.imagemagick.org/script/index.php) to resize and then using `srcset` property on the images but I was unable to get this to properly function and due to time restrictions on the project I had decided to leave this to be revisited in future to implement.
 * Eliminate render-blocking resources - Estimated saving 1.42s
   * This was showing that the bootstrap and FA CDN scripts should be loaded with async or defer but due to the importance of the two and errors caused by using these with either of the two I am unable to resolve this issue.
-
 
 **Diagnostics**
 * Serve static assets with an efficient cache policy
@@ -307,16 +304,16 @@ Initial score 79/100
 * Avoid enormous network payloads
   * Lazyload was added to the webpage to reduce the amount of data required when loading images.
 
-  ---
+---
 
 **Browser testing**
-
 I tested the index page across FireFox, Brave, Google Chrome, Edge, Opera, and vivaldi that are all installed on my computer and then Safari from my iPhone. 
 
 After the adjustments that were already made for the index page no issue were identified from looking at it with multiple browsers.
 
-## **404.html**
+---
 
+## **404.html**
 Initial check for errors in code done using [W3C Markup Validation Service](https://validator.w3.org/)
 
 * `<a>` must not appear as a descendant of the `button` element
@@ -374,10 +371,11 @@ Initial score 82/100
 * Avoid enormous network payloads
   * Lazyload was added to the webpage to reduce the amount of data required when loading images.
 
-  ---
+---
 
 **Browser testing**
-
 I tested the index page across FireFox, Brave, Google Chrome, Edge, Opera, and vivaldi that are all installed on my computer and then Safari from my iPhone. 
 
 After the adjustments that were already made for the index page no issue were identified from looking at it with multiple browsers.
+
+---
