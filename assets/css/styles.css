@@ -99,7 +99,6 @@
     font-size: 1.1rem;
     font-weight: 600;
     padding: 0 5px;
-    width: 16%;
     line-height: 1.5;
     transform: rotate(270deg);
 }
@@ -119,7 +118,7 @@
 
 td[colspan="2"] .timetable-item {
     padding: .5% 1.5%;
-    margin: 2.5% 1%;
+    margin: 2.5%;
     width: 45%;
     max-width: 102px;
 }
@@ -323,20 +322,42 @@ td[colspan="2"] .timetable-item {
     /* Timetable Item */
     .timetable-item {
         max-width: none;
-        width: 125px;
-        height: 125px;
+        width: 115px;
+        height: 115px;
     }
 
     td[colspan="2"] .timetable-item {
-        max-width: 125px;
-        width: 125px;
+        max-width: none;
+        width: 115px;
+    }
+}
+
+@media (min-width: 576px) {
+    /* CLASSES PAGE STYLING */
+    /* Timetable Item */
+    .timetable-item {
+        max-width: none;
+        width: 130px;
+        height: 130px;
+    }
+
+    td[colspan="2"] .timetable-item {
+        max-width: none;
+        width: 130px;
+    }
+}
+
+@media (min-width: 768px) {
+    /* CLASSES PAGE STYLING */
+    .timetable-hour {
+        padding-left: 7%;
     }
 }
 
 @media (min-width: 1200px){
-    .timetable-item {
-        width: 150px;
-        height: 150px;
+    /* CLASSES PAGE STYLING */
+    #classes-tabs {
+        margin-bottom: 10px;
     }
 
     #pricing-hero .banner-text {
