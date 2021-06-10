@@ -390,21 +390,38 @@ After the adjustments that were already made for the index page no issue were id
 
 [Back to index](#contents)
 
----
-
 # **CSS**
 ## **Style.css**
 
 Initially this file was checked with [W3C CSS Validation Service Jigsaw](https://jigsaw.w3.org/css-validator/)
 
-The document passed validation as CSS level 3 + SVG, however it did produce the following 3 warnings:
+The document passed validation as CSS level 3 + SVG, however it did produce the following 5 warnings:
 
 * `-webkit-background-size` is an unknown vendor extension.
 * `-moz-background-size` is an unknown vendor extension.
 * `-o-background-size` is an unknown vendor extension.
+* `-ms-flex` is an unknown vendor extension.
+* `-ms-flex` is an unknown vendor extension.
 
 I felt that these 3 warnings were not cause for concern, all of the unknown vendor extension warnings are because it can only validate against valid code, which the vendor extensions are proprietary code but are needed for browser compatibility. These codes will always show as invalid because of this. [Article response by RyanReese explaining this.](https://www.sitepoint.com/community/t/css-validation-unknown-vendor-extensions/125616)
 
 When further checking the styling on each page was correct, I had noticed that the classes and styling that was used only accommodated for 576px and upwards (as this is the sm breakpoint with bootstrap). However when testing this with my iPhone, I noticed that the styling was not correct and the layout drastically changed from what it should have been. To rectify this, I have gone back through the CSS styling and amended what was incorrect and added new media queries to accommodate what the original styling had looked like on the larger sizes as this website has been developed with a mobile first design.
 
+After I have made the changes that were mentioned above, the pages all function as they are expected and look as expected also.
+
+[Back to index](#contents)
+
 ## **Utilities.css**
+
+Initially this file was checked with [W3C CSS Validation Service Jigsaw](https://jigsaw.w3.org/css-validator/)
+
+The document passed validation as CSS level 3 + SVG, however it did produce the following 5 warnings:
+
+* Imported style sheets are not checked in direct input and file upload modes.
+* `-webkit-optimize-contrast` is an unknown vendor extension.
+
+The first warning that was shown from this I felt that it is not an issue as the only imported document for the website is the fonts from GoogleFonts. As with the Style.css validation, the unknown vendor extension will always show as an error because they cannot be checked against with the validation criteria.
+
+All pages functioned/looked as expected with testing.
+
+[Back to index](#contents)
