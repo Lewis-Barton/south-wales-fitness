@@ -77,6 +77,18 @@
     margin-bottom: 5%;
 }
 
+#classes-calendar th {
+    width: 20%;
+}
+
+#classes-calendar td {
+    width: 40%;
+}
+
+#classes-calendar td[colspan="2"] {
+    width: 80%;
+}
+
 .class-timetable {
     width: 100%;
     height: 100%;
@@ -87,7 +99,7 @@
     font-size: 1.1rem;
     font-weight: 600;
     padding: 0 5px;
-    width: 60px;
+    width: 16%;
     line-height: 1.5;
     transform: rotate(270deg);
 }
@@ -98,15 +110,18 @@
     background-color: #fff;
     padding: 1% 3%;
     border-radius: 3px;
-    width: 130px;
-    height: 130px;
-    margin: 5% 2%;
+    width: 90%;
+    max-width: 102px;
+    height: 114px;
+    margin: 5%;
     text-align: left;
 }
 
 td[colspan="2"] .timetable-item {
     padding: .5% 1.5%;
     margin: 2.5% 1%;
+    width: 45%;
+    max-width: 102px;
 }
 
 .timetable-item div {
@@ -289,6 +304,35 @@ td[colspan="2"] .timetable-item {
 }
 
 /*                                                    MEDIA QUERIES */
+@media (min-width: 480px) and (max-width: 575px) {
+    /* CLASSES PAGE STYLING */
+    #classes-calendar .col-sm-3 {
+        /* Styling taken from bootstrap classes */
+        -ms-flex: 0 0 25%;
+        flex: 0 0 25%;
+        max-width: 25%;
+    }
+
+    #classes-calendar .col-sm-9 {
+        /* Styling taken from bootstrap classes */
+        -ms-flex: 0 0 75%;
+        flex: 0 0 75%;
+        max-width: 75%;
+    }
+
+    /* Timetable Item */
+    .timetable-item {
+        max-width: none;
+        width: 125px;
+        height: 125px;
+    }
+
+    td[colspan="2"] .timetable-item {
+        max-width: 125px;
+        width: 125px;
+    }
+}
+
 @media (min-width: 1200px){
     .timetable-item {
         width: 150px;
