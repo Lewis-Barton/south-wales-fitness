@@ -405,4 +405,6 @@ The document passed validation as CSS level 3 + SVG, however it did produce the 
 
 I felt that these 3 warnings were not cause for concern, all of the unknown vendor extension warnings are because it can only validate against valid code, which the vendor extensions are proprietary code but are needed for browser compatibility. These codes will always show as invalid because of this. [Article response by RyanReese explaining this.](https://www.sitepoint.com/community/t/css-validation-unknown-vendor-extensions/125616)
 
+When further checking the styling on each page was correct, I had noticed that the classes and styling that was used only accommodated for 576px and upwards (as this is the sm breakpoint with bootstrap). However when testing this with my iPhone, I noticed that the styling was not correct and the layout drastically changed from what it should have been. To rectify this, I have gone back through the CSS styling and amended what was incorrect and added new media queries to accommodate what the original styling had looked like on the larger sizes as this website has been developed with a mobile first design.
+
 ## **Utilities.css**
