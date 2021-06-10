@@ -2,13 +2,13 @@
 
 # **Project Description**
 
-This project has been developed for my first Milestone project assignment following the Code Institue course I am currently completing. I have chosen the project idea from the list that was given of "Build a website for a gym"
+This project has been developed for my first Milestone project assignment following the Code Institute course I am currently completing. I have chosen the project idea from the list that was given of "Build a website for a gym"
 
-I have decided to create a website for a fiction gym that is located in South Wales. After researching gyms that are located in my area I thought that I would take the information that I have found from these pre-exisiting companies and expand and adapt for the purposes of this project.
+I have decided to create a website for a fiction gym that is located in South Wales. After researching gyms that are located in my area I thought that I would take the information that I have found from these pre-existing companies and expand and adapt for the purposes of this project.
 
 I have made some assumptions for this business for my User-Centric Front-End Development Milestone project. The gym has fixed schedules of the classes that occur, for which these schedule are the same each week and the same time, and they are included in the gym membership price.
 
-From these assumptions and the information I have gathered I am using the 5 planes of UX methodology that has been explained within the course to; identify the user needs, the features are needed in the design, how the information is scturctured and logically grouped. These have then been used to produce a wireframe to show how this is implemented and a basis for what the project will look like on completion.
+From these assumptions and the information I have gathered I am using the 5 planes of UX methodology that has been explained within the course to; identify the user needs, the features are needed in the design, how the information is structured and logically grouped. These have then been used to produce a wireframe to show how this is implemented and a basis for what the project will look like on completion.
 
 # **Index**
 
@@ -18,7 +18,7 @@ From these assumptions and the information I have gathered I am using the 5 plan
   * [User Goals](#user-goals)
   * [Developer and Business Goals](#developer-and-business-goals)
   * [User Stories](#user-stories)
-  * [Opportunities arising from User Stories](#opportunites-arising-from-user-stories)
+  * [Opportunities arising from User Stories](#opportunities-arising-from-user-stories)
   * [Design choices](#design-choices)
     * [Information Architecture](#information-architecture)
     * [UI Styling](#ui-styling)
@@ -39,7 +39,7 @@ From these assumptions and the information I have gathered I am using the 5 plan
   * [Content](#content)
   * [Media](#media)
   * [Code](#code)
-  * [Achknowledgements](#acknowledgements)
+  * [Acknowledgements](#acknowledgements)
 
 # **UX**
 
@@ -52,13 +52,13 @@ The main objectives for this project is to create a website using HTML and CSS t
 ## User Goals
 ---
 
-The main audience for this website will be customers that are either exisiting members of the gym or potential members, who want to know more about the gym, its facilities and its procedures.
+The main audience for this website will be customers that are either existing members of the gym or potential members, who want to know more about the gym, its facilities and its procedures.
 
 [Back to Index](#index)
 ## Developer and Business Goals
 ---
 
-The website must be fully responsive for all platforms adjusting the design when needed to improve the User Experience. To meet the business needs for the website it must interest and attract new customers and retain exisiting members.
+The website must be fully responsive for all platforms adjusting the design when needed to improve the User Experience. To meet the business needs for the website it must interest and attract new customers and retain existing members.
 
 [Back to Index](#index)
 ## User Stories
@@ -91,7 +91,7 @@ From this I have also identified the following stories from an owner's perspecti
 1. As the owner, I will be able to showcase customer reviews to encourage new members.
 
 [Back to Index](#index)
-## Opportunites arising from User Stories
+## Opportunities arising from User Stories
 ---
 
 Opportunities | Importance | Feasibility/Viability
@@ -113,7 +113,7 @@ Opportunities | Importance | Feasibility/Viability
 
 ### **Information Architecture**
 
-Considering the information that has been outline in the previous two sections I have decidied to opt for the standard tree structure to spread across three pages in total.
+Considering the information that has been outline in the previous two sections I have decided to opt for the standard tree structure to spread across three pages in total.
 
 The aspects that will be **shared** across all three of the pages are as follows:
 
@@ -153,7 +153,7 @@ Given the intentions and purpose of the website I decided on the following style
 
 #### **Colours**
 
-After doing some initial research and coming across the article written by MyPTWebsite (links to full article and accreditation in the credits section at the bottom). I have decided to go with blue for the sections of colour, this is because research has show that this will increase focus and concentration which is what the gym is trying to reflect, it also gives the users a sense of trustworthiness for the website and brand. Alongside these colours I will be using a subtle black and white theme with good whitespacing to minimalise colour clashing when possible.
+After doing some initial research and coming across the article written by MyPTWebsite (links to full article and accreditation in the credits section at the bottom). I have decided to go with blue for the sections of colour, this is because research has show that this will increase focus and concentration which is what the gym is trying to reflect, it also gives the users a sense of trustworthiness for the website and brand. Alongside these colours I will be using a subtle black and white theme with good whitespace to minimize colour clashing when possible.
 
 #### **Styling**
 
@@ -191,10 +191,11 @@ All wireframes were completed in Balsamiq before any programming had started. I 
 * [Bootstrap](https://getbootstrap.com/) was used for styling and utility classes.
 * [Font Awesome](https://fontawesome.com/) was used for the icons on the site.
 * [Lazysizes](https://github.com/aFarkas/lazysizes?utm_source=cdnjs&utm_medium=cdnjs_link&utm_campaign=cdnjs_library) was used to optimise loading of images.
-* **HTML and CSS** are the two langauges that are used during this project.
+* **HTML and CSS** are the two languages that are used during this project.
 * [Google Fonts](https://fonts.google.com/) was used for the fonts for the website.
 * [typosaurus](https://typosaur.us/) was used for spell-checking deployed web pages.
 * [Google Maps URLs](https://developers.google.com/maps) was used for address link to open directions.
+* [Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker) was used for spell checking all documents.
 
 [Back to Index](#index)
 # **Testing**
@@ -208,7 +209,7 @@ the process for each page, what was checked, how it was checked and if any error
 ## GitHub Pages
 ---
 
-This project was developed using [VS Code text editor](https://code.visualstudio.com/) along side the [Live server by ritwick dey](https://ritwickdey.github.io/vscode-live-server/) extension, commited to git and pushed to GitHub using the [GitBash](https://git-scm.com/downloads) terminal.
+This project was developed using [VS Code text editor](https://code.visualstudio.com/) along side the [Live server by ritwick dey](https://ritwickdey.github.io/vscode-live-server/) extension, committed to git and pushed to GitHub using the [GitBash](https://git-scm.com/downloads) terminal.
 
 To deploy this page to GitHub Pages from its [GitHub repository](https://github.com/Lewis-Barton/south-wales-fitness), the following steps were taken:
 
@@ -248,7 +249,7 @@ It is also possible to run this project on a local machine, in order to do this 
 1. Follow this link to the [GitHub repository](https://github.com/Lewis-Barton/south-wales-fitness)
 1. Near the top of the page on the right hand side there will be a button labelled 'Code' click on this.
 1. At the bottom of this pop-out there is an option labelled "Download ZIP" press this button to download the full directory to your machine.
-1. Once the ZIP has been downloaded open it with your extractor of choice (7zip, winrar, etc.)
+1. Once the ZIP has been downloaded open it with your extractor of choice (7zip, WinRAR, etc.)
 1. If you drag and drop the folder inside of this it will have all of the files from the repository to be viewed/edited on your local machine.
 
 [Back to Index](#index)
@@ -268,7 +269,7 @@ It is also possible to run this project on a local machine, in order to do this 
 * [MyPTWebsite](https://www.mypersonaltrainerwebsite.com/blog/how-to-use-color-psychology-to-create-the-perfect-fitness-website) - Article on the psychology of colours in fitness to decide basis for colour palette.
 * [Hatchful](https://hatchful.shopify.com/) - Generated the logo for the business through their creation tool.
 * [Color Hunt](https://colorhunt.co/palette/257808) - Used to find colour palette to use
-* [Unsplash](https://unsplash.com/) - Images on the website are taken from unsplash indivdually commented with links.
+* [Unsplash](https://unsplash.com/) - Images on the website are taken from unsplash individually commented with links.
 
 [Back to Index](#index)
 ## Code
