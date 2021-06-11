@@ -28,10 +28,6 @@ From these assumptions and the information I have gathered I am using the 5 plan
   * [Features left to Implement](#features-left-to-implement)
 * [Technologies Used](#technologies-used)
 * [Testing](#testing)
-  * [Testing Write-Ups](#)
-  * [Bugs Discovered](#)
-    * [Solved Bugs](#)
-    * [Un-resolved Bugs](#)
 * [Deployment](#deployment)
   * [GitHub Pages](#github-pages)
   * [How to run this project locally](#how-to-run-this-project-locally)
@@ -178,9 +174,21 @@ All wireframes were completed in Balsamiq before any programming had started. I 
 ## Existing Features
 ---
 
+From what was identified in the UX process of features I have completed the following.
+
+* Appealing, simple interface - The interface that I have designed is used mainly using bootstrap classes with some additional styling, this makes a clean looking interface that is also familiar to the user as it will be similar to a large number of other sites.
+* Website meets needs of the user and owner - The website is clear from the first page what it is about, and it is intuitive in it's navigation that it is easy to direct the use to the information that they are after. This both meets the needs of the user (trying to find information on the gym etc.) and the owner (promoting their business to retain current members and attract new members).
+* Customer Testimonials - I have added 2 customer testimonials to the front page of the site to show appeal to potential customers that are visiting.
+
 [Back to Index](#index)
 ## Features left to Implement
 ---
+
+Below are the list of features that I would have like to implement to further improve upon the site but I was unable to do so at the time.
+
+* Online booking system for classes. - Due to my lack of back-end knowledge at the time of completing this I am unable to add this feature.
+* Separate personal trainer tab with trainer information and booking portal. - Due to the time restraints that I had with this project I was unable to implement a further page to dedicate to personal trainers and as above due to knowledge limitations I am unable to produce a booking system with my current skill set.
+* Further customer testimonials - I would like to have added more customer testimonials, that can be dynamically changed without having to hard code the images and responses into the website - I do not have experience in using a CMS so I am unable to use this to import information into a section on the site.
 
 [Back to Index](#index)
 # **Technologies Used**
@@ -284,5 +292,7 @@ It is also possible to run this project on a local machine, in order to do this 
 [Back to Index](#index)
 ## Acknowledgements
 ---
+
+At this stage I would like to thank my friends and family for the feedback that has been provided on the site as I continued to develop it, as well as my mentor Gurjot for his feedback and insights at this stage also.
 
 [Back to Index](#index)
