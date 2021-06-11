@@ -179,6 +179,10 @@ From what was identified in the UX process of features I have completed the foll
 * Appealing, simple interface - The interface that I have designed is used mainly using bootstrap classes with some additional styling, this makes a clean looking interface that is also familiar to the user as it will be similar to a large number of other sites.
 * Website meets needs of the user and owner - The website is clear from the first page what it is about, and it is intuitive in it's navigation that it is easy to direct the use to the information that they are after. This both meets the needs of the user (trying to find information on the gym etc.) and the owner (promoting their business to retain current members and attract new members).
 * Customer Testimonials - I have added 2 customer testimonials to the front page of the site to show appeal to potential customers that are visiting.
+* Session pricing and contents, monthly costs and current deals - All of the relevant pricing information, and current deals are clearly shown on pricing.html and the session timetable and contents can all be clearly seen on classes.html
+* Contact information - the contact information is clearly visible and the first item that is seen on the information tab, making it easy for the users to know how to find/contact the business.
+* Social links - The social links are clearly shown with the icon links in the footer of each page, their styling remains consistent and the placement remains the same site wide so they are easy to locate.
+* Showcase facilities - The home page clearly shows all of the facilities that the gym has to offer. This means the user will be able to see everything that the gym has to offer when making a decision about the gym, and the owner has clearly shown the gym's facilities straight away.
 
 [Back to Index](#index)
 ## Features left to Implement
@@ -189,6 +193,7 @@ Below are the list of features that I would have like to implement to further im
 * Online booking system for classes. - Due to my lack of back-end knowledge at the time of completing this I am unable to add this feature.
 * Separate personal trainer tab with trainer information and booking portal. - Due to the time restraints that I had with this project I was unable to implement a further page to dedicate to personal trainers and as above due to knowledge limitations I am unable to produce a booking system with my current skill set.
 * Further customer testimonials - I would like to have added more customer testimonials, that can be dynamically changed without having to hard code the images and responses into the website - I do not have experience in using a CMS so I am unable to use this to import information into a section on the site.
+* Gym history/about the owner - This section while it may not have been of high importance was one that I would have liked to of added if I had the time to do so. Unfortunately due to the time restraints that were imposed with this project I was unable to get this implemented in a way that I would of been happy with but is something that I would like to get added if I was to continue with the development for this.
 
 [Back to Index](#index)
 # **Technologies Used**
