@@ -213,6 +213,8 @@ Below are the list of features that I would have like to implement to further im
 [Back to Index](#index)
 # **Testing**
 
+![Responsive screenshot image](assets/images/responsive-screenshot.webp)
+
 For full documentation on how all of the tests on each document were carried out please see my [testing write up here](testing.md) where I go through
 the process for each page, what was checked, how it was checked and if any errors arose from these test, how they were fixed.
 
@@ -283,6 +285,7 @@ It is also possible to run this project on a local machine, in order to do this 
 * [Hatchful](https://hatchful.shopify.com/) - Generated the logo for the business through their creation tool.
 * [Color Hunt](https://colorhunt.co/palette/257808) - Used to find colour palette to use
 * [Unsplash](https://unsplash.com/) - Images on the website are taken from unsplash individually commented with links.
+* [Am I Responsive](http://ami.responsivedesign.is/) - Used to produce responsive image mock-ups to illustrate for the testing section.
 
 [Back to Index](#index)
 ## Code
@@ -293,6 +296,7 @@ It is also possible to run this project on a local machine, in order to do this 
 * [Bootstrap Docs](https://getbootstrap.com/docs/4.6/getting-started/introduction/) - Learning resource.
 * [BootstrapCreative](https://bootstrapcreative.com/bootstrap-push-pull-column-ordering-tutorial/) - Tutorial for bootstrap order class
 * [Google Maps Platform](https://developers.google.com/maps/documentation/urls/get-started#map-examples_1) - Learning resource
+* [Markdown Cheatsheet by Adam P](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) - Learning resource
 
 [Back to Index](#index)
 ## Acknowledgements
