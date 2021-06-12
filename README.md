@@ -2,13 +2,13 @@
 
 # **Project Description**
 
-This project has been developed for my first Milestone project assignment following the Code Institute course I am currently completing. I have chosen the project idea from the list that was given of "Build a website for a gym"
+This project has been developed for my first Milestone project assignment following the Code Institute course I am currently completing. I have chosen the project idea from the list that was given of "Build a website for a gym".
 
-I have decided to create a website for a fiction gym that is located in South Wales. After researching gyms that are located in my area I thought that I would take the information that I have found from these pre-existing companies and expand and adapt for the purposes of this project.
+I have decided to create a website for a fiction gym that is in South Wales. After researching gyms that are located in my area, I thought that I would take the information that I have found from these pre-existing companies and expand and adapt for the purposes of this project.
 
-I have made some assumptions for this business for my User-Centric Front-End Development Milestone project. The gym has fixed schedules of the classes that occur, for which these schedule are the same each week and the same time, and they are included in the gym membership price.
+I have made some assumptions for this business for my User-Centric Front-End Development Milestone project. The gym has fixed schedules of the classes that occur, for which these schedules are the same each week and the same time, and they are included in the gym membership price.
 
-From these assumptions and the information I have gathered I am using the 5 planes of UX methodology that has been explained within the course to; identify the user needs, the features are needed in the design, how the information is structured and logically grouped. These have then been used to produce a wireframe to show how this is implemented and a basis for what the project will look like on completion.
+From these assumptions and the information, I have gathered I am using the 5 planes of UX methodology that has been explained within the course to; identify the user needs, the features are needed in the design, how the information is structured and logically grouped. These have then been used to produce a wireframe to show how this is implemented and a basis for what the project will look like on completion.
 
 # **Index**
 
@@ -42,7 +42,7 @@ From these assumptions and the information I have gathered I am using the 5 plan
 ## Project Goals
 ---
 
-The main objectives for this project is to create a website using HTML and CSS that is fully responsive to all screen sizes. It will also have a good UX Design following good colour theory, typography, and layout to make the interaction as enjoyable as possible for the user while meeting the business goals outlined below.
+The main objective for this project is to create a website using HTML and CSS that is fully responsive to all screen sizes. It will also have a good UX Design following good colour theory, typography, and layout to make the interaction as enjoyable as possible for the user while meeting the business goals outlined below.
 
 [Back to Index](#index)
 ## User Goals
@@ -114,7 +114,7 @@ Considering the information that has been outline in the previous two sections I
 The aspects that will be **shared** across all three of the pages are as follows:
 
 * The navigation panel will be located at the top of the page which will include the company logo and links to the other pages.
-* The footer will consist of the copyright information as well as social links
+* The footer will consist of the copyright information as well as social links.
 
 The **Home Page** will hold the following information:
 
@@ -125,7 +125,7 @@ The **Home Page** will hold the following information:
 The **Classes Page** will hold the following information:
 
 * Weekly timetable of the classes that are available with days, times & class durations.
-* Description of what is included in each class
+* Description of what is included in each class.
 
 
 The **Pricing Page** will hold the following information:
@@ -149,13 +149,13 @@ Given the intentions and purpose of the website I decided on the following style
 
 #### **Colours**
 
-After doing some initial research and coming across the article written by MyPTWebsite (links to full article and accreditation in the credits section at the bottom). I have decided to go with blue for the sections of colour, this is because research has show that this will increase focus and concentration which is what the gym is trying to reflect, it also gives the users a sense of trustworthiness for the website and brand. Alongside these colours I will be using a subtle black and white theme with good whitespace to minimize colour clashing when possible.
+After doing some initial research and coming across the article written by MyPTWebsite (links to full article and accreditation in the credits section at the bottom). I have decided to go with blue for the sections of colour, this is because research has shown that this will increase focus and concentration which is what the gym is trying to reflect, it also gives the users a sense of trustworthiness for the website and brand. Alongside these colours I will be using a subtle black and white theme with good whitespace to minimize colour clashing when possible.
 
 #### **Styling**
 
-When considering the important aspects of the styling of the website I had to think about what the average user would be viewing it on and the situations that the site might be used. This lead me to decide I will be using the **mobile first** philosophy as I believe most users will be on this sort of device.
+When considering the important aspects of the styling of the website I had to think about what the average user would be viewing it on and the situations that the site might be used. This led me to decide I will be using the **mobile first** philosophy as I believe most users will be on this sort of device.
 
-I will ensure that the design is as clean and simple as possible with very clear and intuitive navigation (typical hamburger layout on mobile devices). All pages will be fully responsive and adapt to each breakpoint appropriately adding more functionality on the larger screens.
+I will ensure that the design is as clean and simple as possible with clear and intuitive navigation (typical hamburger layout on mobile devices). All pages will be fully responsive and adapt to each breakpoint appropriately adding more functionality on the larger screens.
 
 [Back to Index](#index)
 ## Wireframes
@@ -176,29 +176,29 @@ All wireframes were completed in Balsamiq before any programming had started. I 
 
 From what was identified in the UX process of features I have completed the following.
 
-* Appealing, simple interface - The interface that I have designed is used mainly using bootstrap classes with some additional styling, this makes a clean looking interface that is also familiar to the user as it will be similar to a large number of other sites.
-* Website meets needs of the user and owner - The website is clear from the first page what it is about, and it is intuitive in it's navigation that it is easy to direct the use to the information that they are after. This both meets the needs of the user (trying to find information on the gym etc.) and the owner (promoting their business to retain current members and attract new members).
+* Appealing, simple interface - The interface that I have designed is used mainly using bootstrap classes with some additional styling, this makes a clean looking interface that is also familiar to the user as it will be like a large number of other sites.
+* Website meets needs of the user and owner - The website is clear from the first page what it is about, and it is intuitive in its navigation that it is easy to direct the use to the information that they are after. This both meets the needs of the user (trying to find information on the gym etc.) and the owner (promoting their business to retain current members and attract new members).
 * Customer Testimonials - I have added 2 customer testimonials to the front page of the site to show appeal to potential customers that are visiting.
 * Session pricing and contents, monthly costs and current deals - All of the relevant pricing information, and current deals are clearly shown on pricing.html and the session timetable and contents can all be clearly seen on classes.html
 * Contact information - the contact information is clearly visible and the first item that is seen on the information tab, making it easy for the users to know how to find/contact the business.
-* Social links - The social links are clearly shown with the icon links in the footer of each page, their styling remains consistent and the placement remains the same site wide so they are easy to locate.
-* Showcase facilities - The home page clearly shows all of the facilities that the gym has to offer. This means the user will be able to see everything that the gym has to offer when making a decision about the gym, and the owner has clearly shown the gym's facilities straight away.
+* Social links - The social links are clearly shown with the icon links in the footer of each page, their styling remains consistent, and the placement remains the same site wide so they are easy to locate.
+* Showcase facilities - The home page clearly shows all the facilities that the gym has to offer. This means the user will be able to see everything that the gym has to offer when deciding about the gym, and the owner has clearly shown the gym's facilities straight away.
 
 [Back to Index](#index)
 ## Features left to Implement
 ---
 
-Below are the list of features that I would have like to implement to further improve upon the site but I was unable to do so at the time.
+Below is the list of features that I would have like to implement to further improve upon the site but I was unable to do so at the time.
 
 * Online booking system for classes. - Due to my lack of back-end knowledge at the time of completing this I am unable to add this feature.
 * Separate personal trainer tab with trainer information and booking portal. - Due to the time restraints that I had with this project I was unable to implement a further page to dedicate to personal trainers and as above due to knowledge limitations I am unable to produce a booking system with my current skill set.
 * Further customer testimonials - I would like to have added more customer testimonials, that can be dynamically changed without having to hard code the images and responses into the website - I do not have experience in using a CMS so I am unable to use this to import information into a section on the site.
-* Gym history/about the owner - This section while it may not have been of high importance was one that I would have liked to of added if I had the time to do so. Unfortunately due to the time restraints that were imposed with this project I was unable to get this implemented in a way that I would of been happy with but is something that I would like to get added if I was to continue with the development for this.
+* Gym history/about the owner - This section while it may not have been of high importance was one that I would have liked to of added if I had the time to do so. Unfortunately, due to the time restraints that were imposed with this project I was unable to get this implemented in a way that I would of been happy with but is something that I would like to get added if I was to continue with the development for this.
 
 [Back to Index](#index)
 # **Technologies Used**
 
-* [Balsamiq](https://balsamiq.com/) was used to produce all of the wireframes for the project.
+* [Balsamiq](https://balsamiq.com/) was used to produce all the wireframes for the project.
 * [VS Code](https://code.visualstudio.com/) was used to develop this website.
 * [GitBash](https://git-scm.com/downloads) was used for Git version Control and pushing to GitHub.
 * [Bootstrap](https://getbootstrap.com/) was used for styling and utility classes.
@@ -209,6 +209,7 @@ Below are the list of features that I would have like to implement to further im
 * [typosaurus](https://typosaur.us/) was used for spell-checking deployed web pages.
 * [Google Maps URLs](https://developers.google.com/maps) was used for address link to open directions.
 * [Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker) was used for spell checking all documents.
+* [Microsoft Word](https://www.microsoft.com/en-gb/microsoft-365/word) was used to further check all spelling, punctuation, and grammar of the contents of the website.
 
 [Back to Index](#index)
 # **Testing**
@@ -224,48 +225,48 @@ the process for each page, what was checked, how it was checked and if any error
 ## GitHub Pages
 ---
 
-This project was developed using [VS Code text editor](https://code.visualstudio.com/) along side the [Live server by ritwick dey](https://ritwickdey.github.io/vscode-live-server/) extension, committed to git and pushed to GitHub using the [GitBash](https://git-scm.com/downloads) terminal.
+This project was developed using [VS Code text editor](https://code.visualstudio.com/) alongside the [Live server by ritwick dey](https://ritwickdey.github.io/vscode-live-server/) extension, committed to git and pushed to GitHub using the [GitBash](https://git-scm.com/downloads) terminal.
 
 To deploy this page to GitHub Pages from its [GitHub repository](https://github.com/Lewis-Barton/south-wales-fitness), the following steps were taken:
 
 1. Log into GitHub
 1. From the list of repositories on the screen, select **Lewis-Barton/south-wales-fitness**
 1. Select **Settings**, from the menu items near the top of the page.
-1. Select **Pages**, from the tab on the left hand side of the screen.
+1. Select **Pages**, from the tab on the left-hand side of the screen.
 1. Under the **Source** section, click the drop-down menu labelled **none** and select **Main**.
-1. On selecting Main Branch the page is automatically refreshed, and the website is now deployed.
+1. On selecting Main Branch, the page is automatically refreshed, and the website is now deployed.
 1. Go back to the **Pages** section to retrieve the link to the deployed website.
 
 [Back to Index](#index)
 ## How to run this project locally
 ---
 
-It is also possible to run this project on a local machine, in order to do this you would have to clone this project from GitHub. There are multiple ways in which this can be completed, these have been outlined below.
+It is also possible to run this project on a local machine, in order to do this, you would have to clone this project from GitHub. There are multiple ways in which this can be completed, these have been outlined below.
 
 **Cloning with Git Bash**
 
 1. Follow this link to the [GitHub repository](https://github.com/Lewis-Barton/south-wales-fitness)
-1. Near the top of the page on the right hand side there will be a button labelled 'Code' click on this.
-1. In the HTTPS section click the clip board on the right hand side to copy the URL.
+1. Near the top of the page on the right-hand side there will be a button labelled 'Code' click on this.
+1. In the HTTPS section click the clip board on the right-hand side to copy the URL.
 1. Open [Git Bash]() on your machine.
 1. Change the working directory to the location where you want the repository to be cloned to.
 1. Type `git clone` then paste the URL copied from section 3
 `git clone https://github.com/Lewis-Barton/south-wales-fitness.git`
 
-1. Press Enter and you local clone will begin downloading and be created onto your machine.
+1. Press Enter and your local clone will begin downloading and be created onto your machine.
 
 **GitHub Desktop**
 1. Follow this link to the [GitHub repository](https://github.com/Lewis-Barton/south-wales-fitness)
-1. Near the top of the page on the right hand side there will be a button labelled 'Code' click on this.
+1. Near the top of the page on the right-hand side there will be a button labelled 'Code' click on this.
 1. Below the HTTPS section there is an option labelled "Open with GitHub Desktop"
-1. If you have this installed it will open up the programme on your machine, if you follow the steps shown on the screen you will then have a copy of the repository on your machine. If you do not have the programme installed on your machine then clicking on this option will take you to the download section for GitHub Desktop, once this has been downloaded and installed it will continue setting up the repository to be copied to your machine locally.
+1. If you have this installed it will open the programme on your machine, if you follow the steps shown on the screen you will then have a copy of the repository on your machine. If you do not have the programme installed on your machine then clicking on this option will take you to the download section for GitHub Desktop, once this has been downloaded and installed it will continue setting up the repository to be copied to your machine locally.
 
 **Download and extract the zip directly from GitHub**
 1. Follow this link to the [GitHub repository](https://github.com/Lewis-Barton/south-wales-fitness)
-1. Near the top of the page on the right hand side there will be a button labelled 'Code' click on this.
+1. Near the top of the page on the right-hand side there will be a button labelled 'Code' click on this.
 1. At the bottom of this pop-out there is an option labelled "Download ZIP" press this button to download the full directory to your machine.
 1. Once the ZIP has been downloaded open it with your extractor of choice (7zip, WinRAR, etc.)
-1. If you drag and drop the folder inside of this it will have all of the files from the repository to be viewed/edited on your local machine.
+1. If you drag and drop the folder inside of this it will have all the files from the repository to be viewed/edited on your local machine.
 
 [Back to Index](#index)
 # **Credits**
@@ -283,7 +284,7 @@ It is also possible to run this project on a local machine, in order to do this 
 
 * [MyPTWebsite](https://www.mypersonaltrainerwebsite.com/blog/how-to-use-color-psychology-to-create-the-perfect-fitness-website) - Article on the psychology of colours in fitness to decide basis for colour palette.
 * [Hatchful](https://hatchful.shopify.com/) - Generated the logo for the business through their creation tool.
-* [Color Hunt](https://colorhunt.co/palette/257808) - Used to find colour palette to use
+* [Color Hunt](https://colorhunt.co/palette/257808) - Used to find colour palette to use.
 * [Unsplash](https://unsplash.com/) - Images on the website are taken from unsplash individually commented with links.
 * [Am I Responsive](http://ami.responsivedesign.is/) - Used to produce responsive image mock-ups to illustrate for the testing section.
 
