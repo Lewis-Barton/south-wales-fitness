@@ -93,11 +93,12 @@ footer {
     font-size: 2rem;
     text-align: center;
     width: 100%;
+    padding: 0 5%;
 }
 
 .social-links a {
     color: #fff;
-    margin-top: 3%;
+    margin-top: 1.5%;
 }
 
 .social-links a:hover {
@@ -153,4 +154,25 @@ footer {
 
 .banner-text .btn-cta {
     margin-top: 20px;
+}
+
+@media (min-width: 576px) {
+    /* Footer */
+    .social-links {
+        padding: 0 10%;
+    }
+}
+
+@media (min-width: 992px) {
+    /* Footer */
+    .social-links {
+        padding: 0 15%;
+    }
+}
+
+@media (min-width: 1200px) {
+    /* Footer */
+    .social-links {
+        padding: 0 20%;
+    }
 }
