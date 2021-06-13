@@ -3,22 +3,24 @@
 
 # **Contents**
 * **[HTML](#html)**
-  * [index.html](#index.html)
-  * [classes.html](#classes.html)
-  * [information.html](#information.html)
-  * [pricing.html](#pricing.html)
-  * [404.html](#404.html)
+  * [index.html](#index)
+  * [classes.html](#classes)
+  * [information.html](#information)
+  * [pricing.html](#pricing)
+  * [404.html](#404)
 * **[CSS](#css)**
-  * [style.css](#style.css)
-  * [utilities.css](#utilities.css)
+  * [style.css](#style)
+  * [utilities.css](#utilities)
 
 
 # **HTML**
-## **Index.html**
+## **Index**
 Initial check for errors in code done using [W3C Markup Validation Service](https://validator.w3.org/)
 
 * `` img `` tag missing ``src``
   * This was due to changing the ``src`` to ``data-src`` and not adding it as a new attribute instead. - All ``img`` tags had the src attribute added which fixed the error.
+* `<a>` must not appear as a descendant of the `button` element
+  * This error was resolved by removing the `button` tag, and adding the btn bootstrap class to the link.
 
 The page was then checked for spelling mistakes using [typosaurus](https://typosaur.us/)
 
@@ -95,7 +97,7 @@ I had also found that I had used the `col-sm-*` class instead of `col-*` on the 
 
 ---
 
-## **Classes.html**
+## **Classes**
 Initial check for errors in code done using [W3C Markup Validation Service](https://validator.w3.org/)
 
 * Start tag ``<span>`` seen in table.
@@ -177,7 +179,7 @@ After the adjustments that were already made for the index page no issue were id
 
 ---
 
-## **Information.html**
+## **Information**
 Initial check for errors in code done using [W3C Markup Validation Service](https://validator.w3.org/) - No issues or warnings were shown from this.
 
 The page was then checked for spelling mistakes using [typosaurus](https://typosaur.us/) - 3 errors were identified that were then amended.
@@ -247,7 +249,7 @@ After the adjustments that were already made for the index page no issue were id
 
 --- 
 
-## **Pricing.html**
+## **Pricing**
 Initial check for errors in code done using [W3C Markup Validation Service](https://validator.w3.org/) - No issues were identified with this test.
 
 The page was then checked for spelling mistakes using [typosaurus](https://typosaur.us/) - 3 errors were identified using this that were then corrected to the correct context/spellings.
@@ -323,11 +325,11 @@ After the adjustments that were already made for the index page no issue were id
 
 ---
 
-## **404.html**
+## **404**
 Initial check for errors in code done using [W3C Markup Validation Service](https://validator.w3.org/)
 
 * `<a>` must not appear as a descendant of the `button` element
-  * This error was resolved by moving the `<a>` outside of the button element, everything still functioned the same, but it would now pass validation.
+  * This error was resolved by removing the `button` tag, and adding the btn bootstrap class to the link.
 
 The page was then checked for spelling mistakes using [typosaurus](https://typosaur.us/)
 
@@ -391,7 +393,7 @@ After the adjustments that were already made for the index page no issue were id
 [Back to index](#contents)
 
 # **CSS**
-## **Style.css**
+## **Style**
 
 Initially this file was checked with [W3C CSS Validation Service Jigsaw](https://jigsaw.w3.org/css-validator/)
 
@@ -411,7 +413,7 @@ After I have made the changes that were mentioned above, the pages all function 
 
 [Back to index](#contents)
 
-## **Utilities.css**
+## **Utilities**
 
 Initially this file was checked with [W3C CSS Validation Service Jigsaw](https://jigsaw.w3.org/css-validator/)
 
